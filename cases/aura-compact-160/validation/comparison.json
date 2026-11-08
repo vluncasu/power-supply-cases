@@ -1,0 +1,16 @@
+{
+  "old_mm": [
+    184,
+    132,
+    48.8
+  ],
+  "new_mm": [
+    160,
+    124,
+    48.8
+  ],
+  "footprint_reduction_percent": 18.31357048748353,
+  "solid_volume_mm3": 165710.72391521704,
+  "previous_solid_volume_mm3": 191243.73175452207,
+  "solid_volume_reduction_percent": 13.351029916148505
+}

@@ -1,0 +1,108 @@
+{
+  "01_SLIM_BASE.stl": {
+    "triangles": 122504,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      190.0,
+      166.0,
+      45.8
+    ]
+  },
+  "02_SLIM_LID_exterior_up.stl": {
+    "triangles": 14392,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      190.0,
+      166.0,
+      3.0
+    ]
+  },
+  "03_CLOSURE_SCREW_x4.stl": {
+    "triangles": 7840,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      14.0,
+      14.0,
+      13.0
+    ]
+  },
+  "04_XY_MOUNT_x4.stl": {
+    "triangles": 11404,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      16.0,
+      16.0,
+      9.4
+    ]
+  },
+  "05_MOUNT_LOCK_FOOT_x4.stl": {
+    "triangles": 6284,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      22.0,
+      22.0,
+      5.8
+    ]
+  },
+  "06_PCB_NUT_x4.stl": {
+    "triangles": 3626,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      7.621,
+      8.8,
+      2.8
+    ]
+  },
+  "07_CABLE_CLAMP_x2_print_flat_side_down.stl": {
+    "triangles": 992,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      34.0,
+      10.0,
+      3.3
+    ]
+  },
+  "08_CABLE_CLAMP_SCREW_x4.stl": {
+    "triangles": 27788,
+    "nonmanifold_edges": 0,
+    "connected_components": 1,
+    "zero_length_triangles": 0,
+    "minimum_z": 0.0,
+    "size_mm": [
+      11.0,
+      11.0,
+      23.4
+    ]
+  },
+  "01_base.3mf": {
+    "inside_256mm_build_volume": true,
+    "overlapping_footprints": false,
+    "objects": 1
+  },
+  "02_lid_and_hardware.3mf": {
+    "inside_256mm_build_volume": true,
+    "overlapping_footprints": false,
+    "objects": 23
+  }
+}

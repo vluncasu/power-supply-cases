@@ -1,0 +1,19 @@
+{
+  "support_range_test_mm": [
+    -2,
+    2
+  ],
+  "support_base_max_intersection_mm3": 2.9919251188162466e-06,
+  "lock_shoe_best_fit": {
+    "overlap_mm3": 0.0,
+    "rotation_deg": 0
+  },
+  "nut_shoe_best_fit": {
+    "overlap_mm3": 0.0,
+    "rotation_deg": 0
+  },
+  "closure_best_fit": {
+    "overlap_mm3": 0.0,
+    "rotation_deg": 0
+  }
+}

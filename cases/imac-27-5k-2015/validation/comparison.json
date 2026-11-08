@@ -1,0 +1,9 @@
+{
+  "height_total_mm": 50,
+  "SLIM_solid_volume_mm3": 253278.63,
+  "SLIM_GRIP_solid_volume_mm3": 249925.62999999998,
+  "SCULPT_solid_volume_mm3": 374026.0,
+  "reduction_vs_SLIM_percent": 1.32,
+  "reduction_vs_SCULPT_percent": 33.18,
+  "note": "CAD solid volume, all parts with quantities; not filament or time from slicing"
+}

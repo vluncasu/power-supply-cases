@@ -1,0 +1,46 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "color": "graphite",
+      "file": "print/stl/graphite/01_body_x1.stl"
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "color": "ivory",
+      "file": "print/stl/ivory/02_wave-lid_x1.stl"
+    },
+    {
+      "id": 3,
+      "quantity": 4,
+      "color": "ivory",
+      "file": "print/stl/ivory/03_lid-screw_x4.stl"
+    },
+    {
+      "id": 4,
+      "quantity": 2,
+      "color": "ivory",
+      "file": "print/stl/ivory/04_cable-clamp_x2.stl"
+    },
+    {
+      "id": 5,
+      "quantity": 4,
+      "color": "graphite",
+      "file": "print/stl/graphite/05_clamp-screw_x4.stl"
+    }
+  ],
+  "plates": [
+    {
+      "color": "graphite",
+      "quantity": 5,
+      "file": "print/plates/01-graphite-5.3mf"
+    },
+    {
+      "color": "ivory",
+      "quantity": 7,
+      "file": "print/plates/02-ivory-7.3mf"
+    }
+  ]
+}

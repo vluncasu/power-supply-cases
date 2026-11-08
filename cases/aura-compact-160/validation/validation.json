@@ -1,0 +1,234 @@
+{
+  "05_NEGRU_clamp_screw_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        22.799999237060547
+      ]
+    ],
+    "volume_mm3": 665.5256061033185
+  },
+  "03_ALB_closure_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        15.800000190734863
+      ]
+    ],
+    "volume_mm3": 491.69042398685446
+  },
+  "06_ALB_housing_pressure_x2.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        9.800000190734863
+      ]
+    ],
+    "volume_mm3": 342.68922236292883
+  },
+  "04_ALB_cable_clamp_x2.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -17.0,
+        -4.400000095367432,
+        0.0
+      ],
+      [
+        17.0,
+        4.400000095367432,
+        3.3000001907348633
+      ]
+    ],
+    "volume_mm3": 655.4407869417946
+  },
+  "02_ALB_wave_lid_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -62.0,
+        -80.0,
+        0.0
+      ],
+      [
+        62.0,
+        80.0,
+        7.400000095367432
+      ]
+    ],
+    "volume_mm3": 47193.814981182375
+  },
+  "01_NEGRU_body_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -62.0,
+        -80.0,
+        0.0
+      ],
+      [
+        62.0,
+        80.0,
+        46.0
+      ]
+    ],
+    "volume_mm3": 111891.7847950624
+  },
+  "body_lid_overlap": 0.0,
+  "clamp_fits": {
+    "4": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "6": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          140
+        ],
+        [
+          0.0,
+          140
+        ]
+      ]
+    },
+    "8": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          50
+        ],
+        [
+          0.0,
+          50
+        ]
+      ]
+    },
+    "10": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "12": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    }
+  },
+  "envelope_fits": {
+    "(100, 110, 36)": {
+      "base_overlap": 0.0,
+      "lid_overlap": 0.0
+    },
+    "(102, 112, 38)": {
+      "base_overlap": 0.0,
+      "lid_overlap": 0.0
+    }
+  },
+  "pressure_threads": {
+    "34": [
+      0.0,
+      120
+    ],
+    "36": [
+      0.0,
+      30
+    ],
+    "38": [
+      0.0,
+      0
+    ]
+  },
+  "closure_fit": [
+    0.0,
+    0
+  ],
+  "plates": {
+    "01_NEGRU_5_pieces.3mf": {
+      "count": 5,
+      "within_256": true,
+      "no_overlap": true
+    },
+    "02_ALB_9_pieces.3mf": {
+      "count": 9,
+      "within_256": true,
+      "no_overlap": true
+    }
+  },
+  "straight_cable_clearance": {
+    "4": {
+      "body_intersection_mm3": 0.0,
+      "cap_intersection_mm3": 0.0
+    },
+    "6": {
+      "body_intersection_mm3": 0.0,
+      "cap_intersection_mm3": 0.0
+    },
+    "8": {
+      "body_intersection_mm3": 0.0,
+      "cap_intersection_mm3": 0.0
+    },
+    "10": {
+      "body_intersection_mm3": 0.0,
+      "cap_intersection_mm3": 0.0
+    },
+    "12": {
+      "body_intersection_mm3": 0.0,
+      "cap_intersection_mm3": 0.0
+    }
+  }
+}

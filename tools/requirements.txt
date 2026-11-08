@@ -1,0 +1,4 @@
+# Versions used for local verification: numpy==2.5.3, trimesh==4.11.2, scipy==1.17.0
+numpy>=2,<3
+trimesh>=4.5,<5
+scipy>=1.13,<2

@@ -1,0 +1,26 @@
+{
+  "01_NEGRU_body_x1": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 111891.78479506493
+  },
+  "02_ALB_wave_lid_x1": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 47193.81498118199
+  },
+  "03_ALB_closure_x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 491.69042398685394
+  },
+  "04_ALB_cable_clamp_x2": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 655.4407869417953
+  },
+  "05_NEGRU_clamp_screw_x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 665.5256061033107
+  },
+  "06_ALB_housing_pressure_x2": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 342.6892223629316
+  }
+}

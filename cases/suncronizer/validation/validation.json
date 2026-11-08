@@ -1,0 +1,168 @@
+{
+  "05_NEGRU_clamp_screw_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        23.799999237060547
+      ]
+    ],
+    "volume_mm3": 690.3589050116678
+  },
+  "03_ALB_closure_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        15.800000190734863
+      ]
+    ],
+    "volume_mm3": 491.69042398685446
+  },
+  "04_ALB_cable_clamp_x2.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -17.0,
+        -4.400000095367432,
+        0.0
+      ],
+      [
+        17.0,
+        4.400000095367432,
+        3.3000001907348633
+      ]
+    ],
+    "volume_mm3": 655.4407869417946
+  },
+  "02_ALB_solar_cap_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -58.0,
+        -82.0,
+        0.0
+      ],
+      [
+        58.0,
+        82.0,
+        7.800000190734863
+      ]
+    ],
+    "volume_mm3": 55795.97182270439
+  },
+  "01_NEGRU_body_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -56.0,
+        -80.0,
+        0.0
+      ],
+      [
+        56.0,
+        80.0,
+        37.0
+      ]
+    ],
+    "volume_mm3": 106817.21101368312
+  },
+  "body_lid_overlap": 0.0,
+  "clamp_fits": {
+    "5": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "8": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          50
+        ],
+        [
+          0.0,
+          50
+        ]
+      ]
+    },
+    "10": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "12": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    }
+  },
+  "closure_fit": [
+    0.0,
+    0
+  ],
+  "plates": {
+    "01_NEGRU_5_pieces.3mf": {
+      "count": 5,
+      "within_256": true,
+      "no_overlap": true
+    },
+    "02_ALB_7_pieces.3mf": {
+      "count": 7,
+      "within_256": true,
+      "no_overlap": true
+    }
+  },
+  "reserved_envelopes": {
+    "PSU": {
+      "body_intersection": 0.0,
+      "cap_intersection": 0.0
+    },
+    "converter": {
+      "body_intersection": 0.0,
+      "cap_intersection": 0.0
+    }
+  }
+}

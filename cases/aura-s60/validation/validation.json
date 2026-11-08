@@ -1,0 +1,158 @@
+{
+  "04_FILDES_cable_clamp_x2.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -17.0,
+        -5.0,
+        0.0
+      ],
+      [
+        17.0,
+        5.0,
+        3.3000001907348633
+      ]
+    ],
+    "volume_mm3": 777.8407686479245
+  },
+  "03_FILDES_closure_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        15.800000190734863
+      ]
+    ],
+    "volume_mm3": 491.69042398685446
+  },
+  "01_GRAFIT_body_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -44.0,
+        -74.0,
+        0.0
+      ],
+      [
+        44.0,
+        74.0,
+        40.0
+      ]
+    ],
+    "volume_mm3": 80654.12731482569
+  },
+  "05_GRAFIT_clamp_screw_x4.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -5.0,
+        -5.0,
+        0.0
+      ],
+      [
+        5.0,
+        5.0,
+        23.799999237060547
+      ]
+    ],
+    "volume_mm3": 690.3589050116678
+  },
+  "02_FILDES_wave_lid_x1.stl": {
+    "watertight": true,
+    "components": 1,
+    "bounds": [
+      [
+        -44.0,
+        -74.0,
+        0.0
+      ],
+      [
+        44.0,
+        74.0,
+        6.599999904632568
+      ]
+    ],
+    "volume_mm3": 30881.880348723073
+  },
+  "body_lid_overlap": 0.0,
+  "clamp_fits": {
+    "5": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "8": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          50
+        ],
+        [
+          0.0,
+          50
+        ]
+      ]
+    },
+    "10": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    },
+    "12": {
+      "cap_base_overlap": 0.0,
+      "screws": [
+        [
+          0.0,
+          0
+        ],
+        [
+          0.0,
+          0
+        ]
+      ]
+    }
+  },
+  "closure_fit": [
+    0.0,
+    0
+  ],
+  "plates": {
+    "02_FILDES_7_pieces.3mf": {
+      "count": 7,
+      "within_256": true,
+      "no_overlap": true
+    },
+    "01_GRAFIT_5_pieces.3mf": {
+      "count": 5,
+      "within_256": true,
+      "no_overlap": true
+    }
+  }
+}

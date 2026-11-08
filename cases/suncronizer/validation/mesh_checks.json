@@ -1,0 +1,22 @@
+{
+  "01_NEGRU_body_x1": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 106817.21101368076
+  },
+  "02_ALB_solar_cap_x1": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 55795.97182270425
+  },
+  "03_ALB_closure_x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 491.69042398685394
+  },
+  "04_ALB_cable_clamp_x2": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 655.4407869417953
+  },
+  "05_NEGRU_clamp_screw_x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 690.3589050116634
+  }
+}

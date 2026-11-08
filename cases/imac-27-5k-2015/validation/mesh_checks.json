@@ -1,0 +1,34 @@
+{
+  "01 SLIM BASE": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 167104.46
+  },
+  "02 SLIM LID exterior up": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 69624.37
+  },
+  "03 CLOSURE SCREW x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 1046.52
+  },
+  "04 XY MOUNT x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 451.46
+  },
+  "05 MOUNT LOCK FOOT x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 562.77
+  },
+  "06 PCB NUT x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 115.89
+  },
+  "07 CABLE CLAMP x2 print flat side down": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 777.84
+  },
+  "08 CABLE CLAMP SCREW x4": {
+    "nonmanifold_edges": 0,
+    "volume_mm3": 733.64
+  }
+}

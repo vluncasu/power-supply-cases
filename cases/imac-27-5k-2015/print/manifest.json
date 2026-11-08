@@ -1,0 +1,64 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "color": "graphite",
+      "file": "print/stl/graphite/01_base_x1.stl"
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "color": "ivory",
+      "file": "print/stl/ivory/02_relief-lid_x1.stl"
+    },
+    {
+      "id": 3,
+      "quantity": 4,
+      "color": "ivory",
+      "file": "print/stl/ivory/03_lid-screw_x4.stl"
+    },
+    {
+      "id": 4,
+      "quantity": 4,
+      "color": "ivory",
+      "file": "print/stl/ivory/04_xy-pcb-support_x4.stl"
+    },
+    {
+      "id": 5,
+      "quantity": 4,
+      "color": "graphite",
+      "file": "print/stl/graphite/05_locking-foot_x4.stl"
+    },
+    {
+      "id": 6,
+      "quantity": 4,
+      "color": "graphite",
+      "file": "print/stl/graphite/06_pcb-nut_x4.stl"
+    },
+    {
+      "id": 7,
+      "quantity": 2,
+      "color": "ivory",
+      "file": "print/stl/ivory/07_cable-clamp_x2.stl"
+    },
+    {
+      "id": 8,
+      "quantity": 4,
+      "color": "graphite",
+      "file": "print/stl/graphite/08_clamp-screw_x4.stl"
+    }
+  ],
+  "plates": [
+    {
+      "color": "graphite",
+      "quantity": 13,
+      "file": "print/plates/01-graphite-13.3mf"
+    },
+    {
+      "color": "ivory",
+      "quantity": 11,
+      "file": "print/plates/02-ivory-11.3mf"
+    }
+  ]
+}

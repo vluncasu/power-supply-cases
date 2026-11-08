@@ -1,0 +1,44 @@
+{
+  "outer_x": 190.0,
+  "outer_y": 166.0,
+  "corner_radius": 8.0,
+  "wall": 2.4,
+  "base_height": 45.8,
+  "lid_height": 3.0,
+  "cable_diameter": 12.0,
+  "cable_clearance_radial": 0.35,
+  "cable_x": [
+    0.0
+  ],
+  "screw_pitch": 3.0,
+  "thread_depth": 0.8,
+  "thread_clearance_radial": 0.35,
+  "pcb_reference": [
+    163.0,
+    132.0,
+    35.0
+  ],
+  "pcb_mount_holes": [
+    [
+      12,
+      3
+    ],
+    [
+      160,
+      3
+    ],
+    [
+      5,
+      102
+    ],
+    [
+      158,
+      102
+    ]
+  ],
+  "status": "Adjustable mechanical design; not electrically or thermally validated",
+  "cable_clamp_range_mm": [
+    4,
+    12
+  ]
+}

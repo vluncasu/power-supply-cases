@@ -1,0 +1,52 @@
+{
+  "parts": [
+    {
+      "id": 1,
+      "quantity": 1,
+      "color": "black",
+      "file": "print/stl/black/01_body_x1.stl"
+    },
+    {
+      "id": 2,
+      "quantity": 1,
+      "color": "white",
+      "file": "print/stl/white/02_wave-lid_x1.stl"
+    },
+    {
+      "id": 3,
+      "quantity": 4,
+      "color": "white",
+      "file": "print/stl/white/03_lid-screw_x4.stl"
+    },
+    {
+      "id": 4,
+      "quantity": 2,
+      "color": "white",
+      "file": "print/stl/white/04_cable-clamp_x2.stl"
+    },
+    {
+      "id": 5,
+      "quantity": 4,
+      "color": "black",
+      "file": "print/stl/black/05_clamp-screw_x4.stl"
+    },
+    {
+      "id": 6,
+      "quantity": 2,
+      "color": "white",
+      "file": "print/stl/white/06_hold-down-screw_x2.stl"
+    }
+  ],
+  "plates": [
+    {
+      "color": "black",
+      "quantity": 5,
+      "file": "print/plates/01-black-5.3mf"
+    },
+    {
+      "color": "white",
+      "quantity": 9,
+      "file": "print/plates/02-white-9.3mf"
+    }
+  ]
+}

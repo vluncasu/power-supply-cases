@@ -11,6 +11,17 @@ Four printable enclosures for the **Bambu Lab P1S**. Choose by supply dimensions
 
 [Printing on the P1S](#printing-on-the-p1s) · [CAD verification and physical limits](#cad-verification-and-physical-limits)
 
+## Download editable CAD
+
+| Project | Complete editable kit | Individual project files |
+|---|---|---|
+| ARC Slim Grip · iMac Late 2015 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) | [Blender, FreeCAD and STEP](cases/imac-27-5k-2015/cad/) |
+| AURA S-60-12 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) | [Blender, FreeCAD and STEP](cases/aura-s60/cad/) |
+| AURA Compact 160 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) | [Blender, FreeCAD and STEP](cases/aura-compact-160/cad/) |
+| Suncronizer | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) | [Blender, FreeCAD and STEP](cases/suncronizer/cad/) |
+
+Open **edit-parts.blend** to work on any printable part. Open **cable-clamp.FCStd** to edit the clamp by dimension or import **cable-clamp.step** as a solid. For cross-CAD lid edits, use **lid.step**. Each CAD ZIP also includes the original STL and 3MF print files, case documentation and assembly views. [Editing instructions](docs/cad.md)
+
 ## ARC Slim Grip
 
 **Delta ADP-300AF T · iMac 27-inch Retina 5K (Late 2015)**  
@@ -73,7 +84,7 @@ Two rows of chevron slots feed baffled side passages. The 44 slots have a combin
 
 </details>
 
-[Editable Blender file](cases/imac-27-5k-2015/cad/assembly.blend) · [Geometry generator](cases/imac-27-5k-2015/source/build.py) · [CAD reports](cases/imac-27-5k-2015/validation/) · [Evidence and limitations](docs/method.md)
+[Editable Blender file](cases/imac-27-5k-2015/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) · [Edit all parts in Blender](cases/imac-27-5k-2015/cad/edit-parts.blend) · [Parametric clamp](cases/imac-27-5k-2015/cad/cable-clamp.FCStd) · [Clamp STEP](cases/imac-27-5k-2015/cad/cable-clamp.step) · [Lid STEP](cases/imac-27-5k-2015/cad/lid.step) · [CAD reports](cases/imac-27-5k-2015/validation/) · [Evidence and limitations](docs/method.md)
 
 ## AURA S-60-12
 
@@ -114,7 +125,7 @@ The interior view shows the printed supports and both clamps with the reference 
 
 </details>
 
-[Editable Blender file](cases/aura-s60/cad/parts.blend) · [Geometry generator](cases/aura-s60/source/build.py) · [CAD reports](cases/aura-s60/validation/) · [Evidence and limitations](docs/method.md)
+[Editable Blender file](cases/aura-s60/cad/parts.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) · [Edit all parts in Blender](cases/aura-s60/cad/edit-parts.blend) · [Parametric clamp](cases/aura-s60/cad/cable-clamp.FCStd) · [Clamp STEP](cases/aura-s60/cad/cable-clamp.step) · [Lid STEP](cases/aura-s60/cad/lid.step) · [CAD reports](cases/aura-s60/validation/) · [Evidence and limitations](docs/method.md)
 
 ## AURA Compact 160
 
@@ -156,7 +167,7 @@ The gray interior block represents the estimated housing envelope. Confirm wall 
 
 </details>
 
-[Editable Blender file](cases/aura-compact-160/cad/assembly.blend) · [Geometry generator](cases/aura-compact-160/source/build.py) · [CAD reports](cases/aura-compact-160/validation/) · [Evidence and limitations](docs/method.md)
+[Editable Blender file](cases/aura-compact-160/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) · [Edit all parts in Blender](cases/aura-compact-160/cad/edit-parts.blend) · [Parametric clamp](cases/aura-compact-160/cad/cable-clamp.FCStd) · [Clamp STEP](cases/aura-compact-160/cad/cable-clamp.step) · [Lid STEP](cases/aura-compact-160/cad/lid.step) · [CAD reports](cases/aura-compact-160/validation/) · [Evidence and limitations](docs/method.md)
 
 ## Suncronizer
 
@@ -195,7 +206,7 @@ The ports are open and the lid has no gasket. Keep the demonstration electronics
 
 </details>
 
-[Editable Blender file](cases/suncronizer/cad/assembly.blend) · [Geometry generator](cases/suncronizer/source/build.py) · [CAD reports](cases/suncronizer/validation/) · [Evidence and limitations](docs/method.md)
+[Editable Blender file](cases/suncronizer/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Edit all parts in Blender](cases/suncronizer/cad/edit-parts.blend) · [Parametric clamp](cases/suncronizer/cad/cable-clamp.FCStd) · [Clamp STEP](cases/suncronizer/cad/cable-clamp.step) · [Lid STEP](cases/suncronizer/cad/lid.step) · [CAD reports](cases/suncronizer/validation/) · [Evidence and limitations](docs/method.md)
 
 ## Printing on the P1S
 
@@ -239,28 +250,11 @@ The iMac supply is an exposed mains assembly. Capacitors can retain charge after
 Each case includes JSON design reports and a print manifest recording the part ID, quantity, color and distribution path. The repository verifier reads the delivered STL and 3MF geometry, checks plate contents and compares published file hashes. [Verification script](tools/verify.py) · [How to run it](docs/cad.md)
 
 <details>
-<summary>Edit the models and reproduce the checks</summary>
+<summary>How to modify a part and export it for printing</summary>
 
-Open the Blender file in the case's cad folder. Assembly scenes contain editable meshes, illustrative objects, materials and cameras. The S-60-12 parts scene stores its five printable components at their print origins. For fabrication, use the oriented files in print/.
+Open the case-specific **edit-parts.blend** and save a working copy. The body, lid and hardware are separate objects arranged in rows. Select a part, edit its faces, duplicate the result and reset the duplicate's location to zero. Export only that selection as STL at scale 1 with Scene Unit disabled. Check its dimensions in the slicer.
 
-Each case includes nominal settings in source/parameters_v2.json. Feature dimensions also appear in source/build.py. To regenerate the individual parts, use Blender 4.2 with Python 3.11, NumPy and manifold3d 3.5.4. Use a wheel compatible with your Blender architecture and Python installation. From the case directory:
-
-```sh
-python3.11 -m pip install --no-deps --target source/vendor manifold3d==3.5.4
-blender --background --python-exit-code 1 --python source/build.py
-```
-
-Generated meshes appear in final/stl/. Packaged plate positions and quantities are separate distribution data. The S-60-12 generator builds the enclosure without the commercial reference STEP.
-
-To verify the packaged files from the repository root with Python 3.14:
-
-```sh
-python3 -m venv .venv
-.venv/bin/python -m pip install -r tools/requirements.txt
-.venv/bin/python tools/verify.py
-```
-
-The verifier checks STL solids, 3MF units, area and volume correspondence, color-plate quantities, bed contact and nonoverlapping bounding rectangles within 256 × 256 mm. It also checks SHA256SUMS for the distributed case files. [Automated verification](https://github.com/vluncasu/power-supply-cases/actions)
+For the cable clamp, open **cable-clamp.FCStd** and select **Dimensions → Data**. Width, hole spacing, hole diameter and rib spacing can be changed numerically. Export the finished Body to STL or STEP after recomputing. [Worked example and export settings](docs/cad.md)
 
 </details>
 

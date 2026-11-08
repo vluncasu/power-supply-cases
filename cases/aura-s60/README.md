@@ -12,6 +12,12 @@ The metal S-60-12 supply represented by the supplied 86 × 58.02 × 33.02 mm STE
 
 Support pads, stops and clamps inside the empty enclosure. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
+## Edit the design
+
+[Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) · [Edit all parts in Blender](cad/edit-parts.blend) · [Parametric clamp](cad/cable-clamp.FCStd) · [Clamp STEP](cad/cable-clamp.step) · [Lid STEP](cad/lid.step)
+
+Open the Blender parts file to select an individual body, lid or fastener. Use the Dimensions object in FreeCAD to change the clamp width or screw clearances. [Step-by-step editing and STL export](../../docs/cad.md)
+
 ## Print on a Bambu Lab P1S
 
 Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Graphite plate (5 pieces)](print/plates/01-graphite-5.3mf) · [Ivory plate (7 pieces)](print/plates/02-ivory-7.3mf)
@@ -37,4 +43,4 @@ Both ports are on opposite ends. The DC route beside the housing was designed fo
 
 The interior view shows the printed supports and both clamps with the reference supply hidden. The editable Blender file contains the five printable parts at their print origins. The supplier STEP is excluded from distribution.
 
-[Editable Blender file](cad/parts.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)
+[Editable Blender file](cad/parts.blend) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

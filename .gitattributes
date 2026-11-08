@@ -6,3 +6,7 @@
 # Keep documentation and scripts portable across operating systems.
 *.md text eol=lf
 *.py text eol=lf
+
+# Preserve CAD exchange files as delivered by the CAD application.
+*.step binary
+*.FCStd binary

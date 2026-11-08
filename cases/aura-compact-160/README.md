@@ -12,6 +12,12 @@ A metal-cased supply estimated at 110 × 98–100 × 35–36 mm from photographs
 
 Metal housing envelope and independent cable clamps. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
+## Edit the design
+
+[Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) · [Edit all parts in Blender](cad/edit-parts.blend) · [Parametric clamp](cad/cable-clamp.FCStd) · [Clamp STEP](cad/cable-clamp.step) · [Lid STEP](cad/lid.step)
+
+Open the Blender parts file to select an individual body, lid or fastener. Use the Dimensions object in FreeCAD to change the clamp width or screw clearances. [Step-by-step editing and STL export](../../docs/cad.md)
+
 ## Print on a Bambu Lab P1S
 
 Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Black plate (5 pieces)](print/plates/01-black-5.3mf) · [White plate (9 pieces)](print/plates/02-white-9.3mf)
@@ -38,4 +44,4 @@ Place the metal-cased unit on the supports with its terminals toward the input. 
 
 The gray interior block represents the estimated housing envelope. Confirm wall clearance, contact points and cable retention on the physical assembly.
 
-[Editable Blender file](cad/assembly.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)
+[Editable Blender file](cad/assembly.blend) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

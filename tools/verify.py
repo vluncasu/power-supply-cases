@@ -20,6 +20,13 @@ def require(condition, detail):
 
 def verify_case(directory):
     """Compare each plate with its STL bill of materials in millimeters."""
+    require(not (directory / "source").exists(), f"Unexpected construction sources in {directory.name}")
+    require(not any(directory.rglob("*.py")), f"Unexpected script in case {directory.name}")
+    require((directory / "cad/edit-parts.blend").is_file(), directory.name)
+    with ZipFile(directory / "cad/cable-clamp.FCStd") as document:
+        require("Document.xml" in document.namelist() and document.testzip() is None, directory.name)
+        require(not any(n.lower().endswith((".py", ".fcmacro")) for n in document.namelist()), directory.name)
+    require((directory / "cad/cable-clamp.step").read_bytes().startswith(b"ISO-10303-21;"), directory.name)
     manifest = json.loads((directory / "print/manifest.json").read_text())
     meshes = {}
     for part in manifest["parts"]:

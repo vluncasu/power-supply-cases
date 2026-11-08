@@ -12,6 +12,12 @@ Delta ADP-300AF T, the 300 W supply used in the 27-inch Retina 5K iMac (Late 201
 
 Adjustable PCB shoes, baffles and cable clamp assemblies. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
+## Edit the design
+
+[Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) · [Edit all parts in Blender](cad/edit-parts.blend) · [Parametric clamp](cad/cable-clamp.FCStd) · [Clamp STEP](cad/cable-clamp.step) · [Lid STEP](cad/lid.step)
+
+Open the Blender parts file to select an individual body, lid or fastener. Use the Dimensions object in FreeCAD to change the clamp width or screw clearances. [Step-by-step editing and STL export](../../docs/cad.md)
+
 ## Print on a Bambu Lab P1S
 
 Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Graphite plate (13 pieces)](print/plates/01-graphite-13.3mf) · [Ivory plate (11 pieces)](print/plates/02-ivory-11.3mf)
@@ -60,4 +66,4 @@ Two rows of chevron slots feed baffled side passages. The 44 slots have a combin
 3. Place one jacketed cable on each saddle. Turn each clamp ribs-down and tighten its two screws evenly. The entry and exit are on opposite ends. CAD checks cover round jackets of 4, 6, 8, 10 and 12 mm through 12.6 mm ports. The renders illustrate 12 mm cables. Pull-out resistance has not been measured.
 4. Fit the lid with its four recessed screws. Keep the side vents clear.
 
-[Editable Blender file](cad/assembly.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)
+[Editable Blender file](cad/assembly.blend) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

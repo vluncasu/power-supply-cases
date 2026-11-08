@@ -12,6 +12,12 @@ Unpowered solar-tracker demonstration with a 104 × 57–58 × 26 mm supply and 
 
 Supply and converter envelopes in their separate bays. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
+## Edit the design
+
+[Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Edit all parts in Blender](cad/edit-parts.blend) · [Parametric clamp](cad/cable-clamp.FCStd) · [Clamp STEP](cad/cable-clamp.step) · [Lid STEP](cad/lid.step)
+
+Open the Blender parts file to select an individual body, lid or fastener. Use the Dimensions object in FreeCAD to change the clamp width or screw clearances. [Step-by-step editing and STL export](../../docs/cad.md)
+
 ## Print on a Bambu Lab P1S
 
 Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Black plate (5 pieces)](print/plates/01-black-5.3mf) · [Green plate (7 pieces)](print/plates/02-green-7.3mf)
@@ -35,4 +41,4 @@ For an unpowered demonstration, place the component mock-ups in their bays, rout
 
 The ports are open and the lid has no gasket. Keep the demonstration electronics dry. No ingress rating, thermal test or outdoor mains operating approval has been established.
 
-[Editable Blender file](cad/assembly.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)
+[Editable Blender file](cad/assembly.blend) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

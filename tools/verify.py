@@ -62,7 +62,7 @@ def verify_case(directory):
 
 
 if __name__ == "__main__":
-    for directory in sorted((ROOT / "cases").iterdir()):
+    for directory in sorted(path for path in (ROOT / "cases").iterdir() if path.is_dir()):
         print(f"{directory.name}: {verify_case(directory)} pieces verified", flush=True)
     for line in (ROOT / "SHA256SUMS").read_text().splitlines():
         digest, name = line.split("  ", 1)

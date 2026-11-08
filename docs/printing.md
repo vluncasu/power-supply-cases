@@ -2,6 +2,8 @@
 
 All four case kits are designed for a **Bambu Lab P1S with a 256 × 256 mm plate and a 0.4 mm nozzle**. Each color has its own arranged 3MF. The intended setup is PLA, the **0.20 mm Strength** process and supports disabled. These files have passed digital bed-layout checks. Physical printing remains untested.
 
+[Compare the four assembled cases and their interiors](../README.md)
+
 1. Identify the supply and check its dimensions, terminal projections and cable route against the [fit guide](dimensions.md).
 2. Download the matching print kit from [Releases](https://github.com/vluncasu/power-supply-cases/releases/latest) and extract it. Open one file from the plate folder at a time. For direct downloads from GitHub file pages, use **Download raw file**.
 3. In your slicer select the P1S, 0.4 mm nozzle, build surface and actual filament. Import the plate at 100% in millimeters. The 3MF stores the geometry and copy counts. Select the process in the slicer and generate toolpaths locally.

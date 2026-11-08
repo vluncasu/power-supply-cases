@@ -1,5 +1,11 @@
 # Suncronizer
 
+![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+
+The long platform **(1)** reserves **110 × 65 × 32 mm** for the supply. The smaller platform **(2)** reserves **50 × 30 × 20 mm**, including connectors, for the converter. The divider **(3)** separates the bays. The gray blocks show the two design envelopes. The actual PCB mounting holes still need to be measured.
+
+For the unpowered demo, place the mock-ups on their platforms and check connector access. The opposite cable saddles **(4)** support the jackets. Four posts **(5)** receive the lid screws. The lid skirt overlaps the body wall by approximately **5 mm**. The open ports and ungasketed skirt provide no assigned ingress rating.
+
 Unpowered solar-tracker demonstration with a 104 × 57–58 × 26 mm supply and a separate 12 V to 5 V converter. Assembled exterior **164 × 116 × 39.8 mm**.
 
 **[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
@@ -11,6 +17,8 @@ Unpowered solar-tracker demonstration with a 104 × 57–58 × 26 mm supply and 
 | ![Supply and converter envelopes in their separate bays](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
 Supply and converter envelopes in their separate bays. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+
+[Compare the underside of this lid with the other two designs](../../docs/lid-undersides.png)
 
 ## Edit the design
 

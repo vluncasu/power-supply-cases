@@ -1,28 +1,24 @@
 # Power Supply Cases
 
-Four printable enclosures for the **Bambu Lab P1S**. Choose by supply dimensions. Each kit contains oriented STLs and two arranged 3MF plates for a **0.4 mm nozzle, 0.20 mm Strength profile and support-free slicing**.
+![Inside all four enclosures: iMac mounts, S-60-12 reference supply, Compact housing envelope and Suncronizer demo bays](docs/inside-the-cases.jpg)
 
-| Supply | Enclosure dimensions (mm) | Print kit |
-|---|---|---|
-| [ARC Slim Grip](#arc-slim-grip) · Delta ADP-300AF T · iMac 27-inch Retina 5K (Late 2015) | 190 × 166 × 50 | [Download ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) |
-| [AURA S-60-12](#aura-s-60-12) · Metal S-60-12 · 86 × 58.02 × 33.02 mm STEP reference | 148 × 88 × 42.8 | [Download ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip) |
-| [AURA Compact 160](#aura-compact-160) · Metal housing · 110 × 98–100 × 35–36 mm photographic estimate | 160 × 124 × 48.8 | [Download ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip) |
-| [Suncronizer](#suncronizer) · Solar tracker demo · 104 × 57–58 × 26 mm supply and separate DC converter | 164 × 116 × 39.8 | [Download ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip) |
+**Explore the open assemblies:** [iMac hardware](#arc-slim-grip) · [AURA S-60-12](#aura-s-60-12) · [AURA Compact 160](#aura-compact-160) · [Suncronizer](#suncronizer).
 
-[Printing on the P1S](#printing-on-the-p1s) · [CAD verification and physical limits](#cad-verification-and-physical-limits)
-
-## Download editable CAD
-
-| Project | Complete editable kit | Individual project files |
-|---|---|---|
-| ARC Slim Grip · iMac Late 2015 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) | [Blender, FreeCAD and STEP](cases/imac-27-5k-2015/cad/) |
-| AURA S-60-12 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) | [Blender, FreeCAD and STEP](cases/aura-s60/cad/) |
-| AURA Compact 160 | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) | [Blender, FreeCAD and STEP](cases/aura-compact-160/cad/) |
-| Suncronizer | [CAD ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) | [Blender, FreeCAD and STEP](cases/suncronizer/cad/) |
-
-Open **edit-parts.blend** to work on any printable part. Open **cable-clamp.FCStd** to edit the clamp by dimension or import **cable-clamp.step** as a solid. For cross-CAD lid edits, use **lid.step**. Each CAD ZIP also includes the original STL and 3MF print files, case documentation and assembly views. [Editing instructions](docs/cad.md)
+Each enclosure has an illustrated assembly guide, editable CAD and two arranged **Bambu Lab P1S** plates. [Download the print and CAD kits](https://github.com/vluncasu/power-supply-cases/releases/latest) · [Compare supply dimensions](docs/dimensions.md)
 
 ## ARC Slim Grip
+
+![Numbered interior guide showing the bare base and installed assembly](cases/imac-27-5k-2015/renders/interior-guide.png)
+
+The square guides **(1)** accept four sliding shoes. Each shoe can move in two directions before its foot locks it from underneath. The baffles **(2)** screen the side slots, leaving a nominal 5 mm air passage above them. At either end the cable rests on a saddle **(3)** between threaded clamp posts **(4)**. The recessed floor panels **(5)** leave ribs between the four mounting zones.
+
+![Six iMac fastener and support types, labeled with the printable part numbers](cases/imac-27-5k-2015/renders/hardware-guide.png)
+
+**Match the numbers on the sheet to the STL filenames.** Four **03 lid screws** have 14 mm heads and a nominal 10 mm custom thread with 3 mm pitch. Four **05 locking feet** engage the underside of the **04 shoes**. The feet carry the case on the work surface. Each 16 × 16 mm shoe has a 3.2 mm upper stud for one **06 PCB nut**. The two **07 cable clamps** each take two **08 clamp screws**, with 11 mm heads and nominal 6 mm threads at 1.2 mm pitch.
+
+![Local exploded sections of the lid screw and post, PCB mount and locking foot, and cable clamp with screws](cases/imac-27-5k-2015/renders/fastening-sections.png)
+
+Read the middle section from the bench upward: **locking foot → floor opening → sliding shoe → PCB mounting ring → nut**. The PCB mounting plane is 5.8 mm above the *exterior* of the floor. The plate itself is omitted from the section. The extra spacing between parts in the exploded views is for legibility. The right section shows how the two screws load the clamp against the jacket and saddle. Tightening the lid screws does not tighten the cable clamps.
 
 **Delta ADP-300AF T · iMac 27-inch Retina 5K (Late 2015)**  
 Assembled enclosure **190 × 166 × 50 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) · [Graphite plate ×13](cases/imac-27-5k-2015/print/plates/01-graphite-13.3mf) · [Ivory plate ×11](cases/imac-27-5k-2015/print/plates/02-ivory-11.3mf)
@@ -88,6 +84,12 @@ Two rows of chevron slots feed baffled side passages. The 44 slots have a combin
 
 ## AURA S-60-12
 
+![Numbered interior guide showing the bare base and installed assembly](cases/aura-s60/renders/interior-guide.png)
+
+The metal housing rests on four floor pads **(1)**. Side stops **(2)** locate it horizontally. The DC guides **(3)** run beside the housing toward the opposite end. At each port the cable jacket rests on its saddle **(4)**. Four corner posts **(5)** receive the lid screws.
+
+The right-hand image shows the **86 × 58.02 × 33.02 mm STEP reference** installed with its terminals visible. Four fixed pads on the underside of the lid approach the folded metal edges. The calculated vertical play is about **0.18 mm**, so check that the physical housing seats on all four supports before fitting the lid. [Full-size installed view](cases/aura-s60/renders/reference-installed.png)
+
 **Metal S-60-12 · 86 × 58.02 × 33.02 mm STEP reference**  
 Assembled enclosure **148 × 88 × 42.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip) · [Graphite plate ×5](cases/aura-s60/print/plates/01-graphite-5.3mf) · [Ivory plate ×7](cases/aura-s60/print/plates/02-ivory-7.3mf)
 
@@ -128,6 +130,12 @@ The interior view shows the printed supports and both clamps with the reference 
 [Editable Blender file](cases/aura-s60/cad/parts.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) · [Edit all parts in Blender](cases/aura-s60/cad/edit-parts.blend) · [Parametric clamp](cases/aura-s60/cad/cable-clamp.FCStd) · [Clamp STEP](cases/aura-s60/cad/cable-clamp.step) · [Lid STEP](cases/aura-s60/cad/lid.step) · [CAD reports](cases/aura-s60/validation/) · [Evidence and limitations](docs/method.md)
 
 ## AURA Compact 160
+
+![Numbered interior guide showing the bare base and installed assembly](cases/aura-compact-160/renders/interior-guide.png)
+
+The floor pads **(1)** carry the metal housing. Lateral stops **(2)** set its position. The DC cable guide **(3)** defines the return route along the wall. At the maximum modeled envelope the route narrows to **5.2 mm**, with **13.7 mm** between the terminal end and the cable saddle **(4)**. Check the bend as well as the jacket diameter. The gray block in the right-hand view represents the estimated dimensions.
+
+Four **03 lid screws** engage the corner posts **(5)**. The two shorter **06 hold-down screws** pass through separate threaded bosses beside the lid vents and take up vertical play. Both tips must bear on solid metal on the actual supply. The lid-underside comparison below identifies those bosses.
 
 **Metal housing · 110 × 98–100 × 35–36 mm photographic estimate**  
 Assembled enclosure **160 × 124 × 48.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip) · [Black plate ×5](cases/aura-compact-160/print/plates/01-black-5.3mf) · [White plate ×9](cases/aura-compact-160/print/plates/02-white-9.3mf)
@@ -171,6 +179,12 @@ The gray interior block represents the estimated housing envelope. Confirm wall 
 
 ## Suncronizer
 
+![Numbered interior guide showing the bare base and installed assembly](cases/suncronizer/renders/interior-guide.png)
+
+The long platform **(1)** reserves **110 × 65 × 32 mm** for the supply. The smaller platform **(2)** reserves **50 × 30 × 20 mm**, including connectors, for the converter. The divider **(3)** separates the bays. The gray blocks show the two design envelopes. The actual PCB mounting holes still need to be measured.
+
+For the unpowered demo, place the mock-ups on their platforms and check connector access. The opposite cable saddles **(4)** support the jackets. Four posts **(5)** receive the lid screws. The lid skirt overlaps the body wall by approximately **5 mm**. The open ports and ungasketed skirt provide no assigned ingress rating.
+
 **Solar tracker demo · 104 × 57–58 × 26 mm supply and separate DC converter**  
 Assembled enclosure **164 × 116 × 39.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip) · [Black plate ×5](cases/suncronizer/print/plates/01-black-5.3mf) · [Green plate ×7](cases/suncronizer/print/plates/02-green-7.3mf)
 
@@ -207,6 +221,12 @@ The ports are open and the lid has no gasket. Keep the demonstration electronics
 </details>
 
 [Editable Blender file](cases/suncronizer/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Edit all parts in Blender](cases/suncronizer/cad/edit-parts.blend) · [Parametric clamp](cases/suncronizer/cad/cable-clamp.FCStd) · [Clamp STEP](cases/suncronizer/cad/cable-clamp.step) · [Lid STEP](cases/suncronizer/cad/lid.step) · [CAD reports](cases/suncronizer/validation/) · [Evidence and limitations](docs/method.md)
+
+## Under the lids
+
+![Lid underside comparison: fixed S-60-12 pads, Compact threaded hold-downs and Suncronizer skirt](docs/lid-undersides.png)
+
+The S-60-12 lid locates the reference housing with fixed pads. Compact 160 uses two adjustable screws. Suncronizer uses a perimeter skirt to locate the cover above the demo bays.
 
 ## Printing on the P1S
 

@@ -1,5 +1,17 @@
 # ARC Slim Grip
 
+![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+
+The square guides **(1)** accept four sliding shoes. Each shoe can move in two directions before its foot locks it from underneath. The baffles **(2)** screen the side slots, leaving a nominal 5 mm air passage above them. At either end the cable rests on a saddle **(3)** between threaded clamp posts **(4)**. The recessed floor panels **(5)** leave ribs between the four mounting zones.
+
+![Six iMac fastener and support types, labeled with the printable part numbers](renders/hardware-guide.png)
+
+**Match the numbers on the sheet to the STL filenames.** Four **03 lid screws** have 14 mm heads and a nominal 10 mm custom thread with 3 mm pitch. Four **05 locking feet** engage the underside of the **04 shoes**. The feet carry the case on the work surface. Each 16 × 16 mm shoe has a 3.2 mm upper stud for one **06 PCB nut**. The two **07 cable clamps** each take two **08 clamp screws**, with 11 mm heads and nominal 6 mm threads at 1.2 mm pitch.
+
+![Local exploded sections of the lid screw and post, PCB mount and locking foot, and cable clamp with screws](renders/fastening-sections.png)
+
+Read the middle section from the bench upward: **locking foot → floor opening → sliding shoe → PCB mounting ring → nut**. The PCB mounting plane is 5.8 mm above the *exterior* of the floor. The plate itself is omitted from the section. The extra spacing between parts in the exploded views is for legibility. The right section shows how the two screws load the clamp against the jacket and saddle. Tightening the lid screws does not tighten the cable clamps.
+
 Delta ADP-300AF T, the 300 W supply used in the 27-inch Retina 5K iMac (Late 2015). Assembled exterior **190 × 166 × 50 mm**.
 
 **[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)

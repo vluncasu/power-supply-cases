@@ -1,5 +1,11 @@
 # AURA S-60-12
 
+![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+
+The metal housing rests on four floor pads **(1)**. Side stops **(2)** locate it horizontally. The DC guides **(3)** run beside the housing toward the opposite end. At each port the cable jacket rests on its saddle **(4)**. Four corner posts **(5)** receive the lid screws.
+
+The right-hand image shows the **86 × 58.02 × 33.02 mm STEP reference** installed with its terminals visible. Four fixed pads on the underside of the lid approach the folded metal edges. The calculated vertical play is about **0.18 mm**, so check that the physical housing seats on all four supports before fitting the lid. [Full-size installed view](renders/reference-installed.png)
+
 The metal S-60-12 supply represented by the supplied 86 × 58.02 × 33.02 mm STEP assembly. Assembled exterior **148 × 88 × 42.8 mm**.
 
 **[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
@@ -11,6 +17,8 @@ The metal S-60-12 supply represented by the supplied 86 × 58.02 × 33.02 mm STE
 | ![Support pads, stops and clamps inside the empty enclosure](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
 Support pads, stops and clamps inside the empty enclosure. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+
+[Compare the underside of this lid with the other two designs](../../docs/lid-undersides.png)
 
 ## Edit the design
 

@@ -1,5 +1,11 @@
 # AURA Compact 160
 
+![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+
+The floor pads **(1)** carry the metal housing. Lateral stops **(2)** set its position. The DC cable guide **(3)** defines the return route along the wall. At the maximum modeled envelope the route narrows to **5.2 mm**, with **13.7 mm** between the terminal end and the cable saddle **(4)**. Check the bend as well as the jacket diameter. The gray block in the right-hand view represents the estimated dimensions.
+
+Four **03 lid screws** engage the corner posts **(5)**. The two shorter **06 hold-down screws** pass through separate threaded bosses beside the lid vents and take up vertical play. Both tips must bear on solid metal on the actual supply. The lid-underside comparison below identifies those bosses.
+
 A metal-cased supply estimated at 110 × 98–100 × 35–36 mm from photographs. Assembled exterior **160 × 124 × 48.8 mm**.
 
 **[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
@@ -11,6 +17,8 @@ A metal-cased supply estimated at 110 × 98–100 × 35–36 mm from photographs
 | ![Metal housing envelope and independent cable clamps](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
 Metal housing envelope and independent cable clamps. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+
+[Compare the underside of this lid with the other two designs](../../docs/lid-undersides.png)
 
 ## Edit the design
 

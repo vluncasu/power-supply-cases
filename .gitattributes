@@ -1,6 +1,8 @@
+# Store fabrication files and renders without text conversion.
 *.stl binary
 *.blend binary
 *.3mf binary
 *.png binary
+# Keep documentation and scripts portable across operating systems.
 *.md text eol=lf
 *.py text eol=lf

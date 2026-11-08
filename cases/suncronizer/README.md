@@ -1,24 +1,22 @@
 # Suncronizer
 
-![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+![Supply and converter bays](renders/interior.png)
 
-The long platform **(1)** reserves **110 × 65 × 32 mm** for the supply. The smaller platform **(2)** reserves **50 × 30 × 20 mm**, including connectors, for the converter. The divider **(3)** separates the bays. The gray blocks show the two design envelopes. The actual PCB mounting holes still need to be measured.
+An unpowered solar tracker demo. The case measures **164 × 116 × 39.8 mm** and has separate spaces for the supply and converter.
 
-For the unpowered demo, place the mock-ups on their platforms and check connector access. The opposite cable saddles **(4)** support the jackets. Four posts **(5)** receive the lid screws. The lid skirt overlaps the body wall by approximately **5 mm**. The open ports and ungasketed skirt provide no assigned ingress rating.
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Black plate ×5](print/plates/01-black-5.3mf) · [Green plate ×7](print/plates/02-green-7.3mf)
 
-Unpowered solar-tracker demonstration with a 104 × 57–58 × 26 mm supply and a separate 12 V to 5 V converter. Assembled exterior **164 × 116 × 39.8 mm**.
-
-**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
-
-| Closed enclosure | Opposite end |
+| Bare base | Underside of lid |
 |---|---|
-| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Supply and converter envelopes in their separate bays](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
+| ![Bare enclosure floor](renders/base.png) | ![Lid underside](renders/lid-underside.png) |
 
-Supply and converter envelopes in their separate bays. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+The longer platform accepts the supply. The smaller bay beside the divider accepts the converter. The gray blocks show reserved space including connector clearance.
 
-[Compare the underside of this lid with the other two designs](../../docs/lid-undersides.png)
+The skirt overlaps the body wall by about 5 mm. The cable ports are open.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) | ![Exploded enclosure](renders/exploded.png) |
 
 ## Edit the design
 

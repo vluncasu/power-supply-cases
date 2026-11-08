@@ -1,43 +1,49 @@
 # Power Supply Cases
 
-![Inside all four enclosures: iMac mounts, S-60-12 reference supply, Compact housing envelope and Suncronizer demo bays](docs/inside-the-cases.jpg)
+## Delta iMac 27″ Late 2015 Power Supply
 
-**Explore the open assemblies:** [iMac hardware](#arc-slim-grip) · [AURA S-60-12](#aura-s-60-12) · [AURA Compact 160](#aura-compact-160) · [Suncronizer](#suncronizer).
+![Open iMac enclosure with the lid and four lid screws beside the base](cases/imac-27-5k-2015/renders/delta-imac-27-2015-power-supply-case.png)
 
-Each enclosure has an illustrated assembly guide, editable CAD and two arranged **Bambu Lab P1S** plates. [Download the print and CAD kits](https://github.com/vluncasu/power-supply-cases/releases/latest) · [Compare supply dimensions](docs/dimensions.md)
+[AURA S-60-12](#aura-s-60-12) · [AURA Compact 160](#aura-compact-160) · [Suncronizer](#suncronizer) · [P1S settings](#printing-on-the-p1s)
 
-## ARC Slim Grip
+Enclosure for the **Delta ADP-300AF T**, the 300 W power supply in the 27-inch Retina 5K iMac (Late 2015). The board mounts on four adjustable shoes. The finished case measures **190 × 166 × 50 mm**, including the feet.
 
-![Numbered interior guide showing the bare base and installed assembly](cases/imac-27-5k-2015/renders/interior-guide.png)
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) · [Graphite plate ×13](cases/imac-27-5k-2015/print/plates/01-graphite-13.3mf) · [Ivory plate ×11](cases/imac-27-5k-2015/print/plates/02-ivory-11.3mf)
 
-The square guides **(1)** accept four sliding shoes. Each shoe can move in two directions before its foot locks it from underneath. The baffles **(2)** screen the side slots, leaving a nominal 5 mm air passage above them. At either end the cable rests on a saddle **(3)** between threaded clamp posts **(4)**. The recessed floor panels **(5)** leave ribs between the four mounting zones.
-
-![Six iMac fastener and support types, labeled with the printable part numbers](cases/imac-27-5k-2015/renders/hardware-guide.png)
-
-**Match the numbers on the sheet to the STL filenames.** Four **03 lid screws** have 14 mm heads and a nominal 10 mm custom thread with 3 mm pitch. Four **05 locking feet** engage the underside of the **04 shoes**. The feet carry the case on the work surface. Each 16 × 16 mm shoe has a 3.2 mm upper stud for one **06 PCB nut**. The two **07 cable clamps** each take two **08 clamp screws**, with 11 mm heads and nominal 6 mm threads at 1.2 mm pitch.
-
-![Local exploded sections of the lid screw and post, PCB mount and locking foot, and cable clamp with screws](cases/imac-27-5k-2015/renders/fastening-sections.png)
-
-Read the middle section from the bench upward: **locking foot → floor opening → sliding shoe → PCB mounting ring → nut**. The PCB mounting plane is 5.8 mm above the *exterior* of the floor. The plate itself is omitted from the section. The extra spacing between parts in the exploded views is for legibility. The right section shows how the two screws load the clamp against the jacket and saddle. Tightening the lid screws does not tighten the cable clamps.
-
-**Delta ADP-300AF T · iMac 27-inch Retina 5K (Late 2015)**  
-Assembled enclosure **190 × 166 × 50 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) · [Graphite plate ×13](cases/imac-27-5k-2015/print/plates/01-graphite-13.3mf) · [Ivory plate ×11](cases/imac-27-5k-2015/print/plates/02-ivory-11.3mf)
-
-| Closed enclosure | Opposite end |
+| Bare base | Interior with supports and clamps |
 |---|---|
-| ![Closed enclosure](cases/imac-27-5k-2015/renders/exterior.png) | ![Rear three-quarter view](cases/imac-27-5k-2015/renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Adjustable PCB shoes, baffles and cable clamp assemblies](cases/imac-27-5k-2015/renders/interior.png) | ![Lid and fasteners lifted from the body](cases/imac-27-5k-2015/renders/exploded.png) |
+| ![Bare enclosure floor](cases/imac-27-5k-2015/renders/base.png) | ![Fitted base](cases/imac-27-5k-2015/renders/interior.png) |
 
-Four sliding PCB supports align with the estimated board holes. The open view shows the mounts and the two cable clamps with the PCB removed.
+Four printed feet lock the sliding PCB supports from below. The raised strips along the sidewalls shield the vent openings. Each end has a saddle and two threaded posts for the cable clamp.
+
+### How the iMac board is held
+
+| Lid post | Board mount | Cable saddle |
+|---|---|---|
+| ![Lid screw aligned with the lid recess and corner post](cases/imac-27-5k-2015/renders/lid-post.png) | ![Nut, sliding shoe, floor and locking foot](cases/imac-27-5k-2015/renders/pcb-mount.png) | ![Two screws, clamp and cable saddle](cases/imac-27-5k-2015/renders/cable-saddle.png) |
+
+The **locking foot (05)** threads into the shoe from beneath the floor. Align all four shoes before tightening the feet. The PCB mounting ring sits between the shoe shoulder and **nut (06)**. The gaps in these exploded views are enlarged for visibility.
+
+| Lid screw · 03 | Sliding shoe · 04 | Locking foot · 05 |
+|---|---|---|
+| ![Lid screw](cases/imac-27-5k-2015/renders/lid-screw.png) | ![Sliding shoe](cases/imac-27-5k-2015/renders/sliding-shoe.png) | ![Locking foot](cases/imac-27-5k-2015/renders/locking-foot.png) |
+| **PCB nut · 06** | **Cable clamp · 07** | **Clamp screw · 08** |
+| ![PCB nut](cases/imac-27-5k-2015/renders/pcb-nut.png) | ![Cable clamp](cases/imac-27-5k-2015/renders/cable-clamp.png) | ![Clamp screw](cases/imac-27-5k-2015/renders/clamp-screw.png) |
+
+Part numbers match the STL filenames. The lid screws have 14 mm heads and 3 mm pitch. The longer clamp screws have 11 mm heads and 1.2 mm pitch. Two screws draw each clamp down onto the cable jacket.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](cases/imac-27-5k-2015/renders/exterior.png) | ![Rear three-quarter view](cases/imac-27-5k-2015/renders/rear.png) | ![Exploded enclosure](cases/imac-27-5k-2015/renders/exploded.png) |
+
+<details>
+<summary>Dimensions, assembly sequence and individual STL downloads</summary>
 
 ### Board dimensions and mounting coordinates
 
 Identify the supply by its manufacturer label before printing. Apple identifies the host computer as iMac17,1. The supplier lists Apple part 661-03524 for both Delta ADP-300AF T and Lite-On PA-1311-2A supplies. Mechanical fit was studied for the Delta board only. [Apple model identification](https://support.apple.com/en-gb/108054) · [Supplier part record](https://beetstech.com/product/imac-27-inch-a1419-300w-power-supply-661-03524)
 
 The photographic estimate is **163 ± 1 mm long, 132 ± 2 mm wide and 30 ± 5 mm high**. The design envelope allows 164 × 134 mm in plan and 35 mm above the mounting plane. Check the tallest heatsink and the solder joints below the board independently.
-
-![Top view of estimated PCB mounting centers and a vertical clearance section](cases/imac-27-5k-2015/renders/mounting-plan.svg)
 
 The 99 mm dimension is the vertical distance between mounting rows. The 3.4 mm underside gap is measured from the inner floor surface to the PCB support plane.
 
@@ -63,11 +69,6 @@ Two rows of chevron slots feed baffled side passages. The 44 slots have a combin
 3. Place one jacketed cable on each saddle. Turn each clamp ribs-down and tighten its two screws evenly. The entry and exit are on opposite ends. CAD checks cover round jackets of 4, 6, 8, 10 and 12 mm through 12.6 mm ports. The renders illustrate 12 mm cables. Pull-out resistance has not been measured.
 4. Fit the lid with its four recessed screws. Keep the side vents clear.
 
-**Print orientation.** Print the sculpted lid **relief side up**. Set PCB shoes on their square bases, nuts on a flat face, feet and screws on their heads, and clamps with their ribs up.
-
-<details>
-<summary>Individual STL downloads and quantities</summary>
-
 | Individual STL | Color | Quantity |
 |---|---|---:|
 | [Base](cases/imac-27-5k-2015/print/stl/graphite/01_base_x1.stl) | Graphite | 1 |
@@ -82,26 +83,30 @@ Two rows of chevron slots feed baffled side passages. The 44 slots have a combin
 
 </details>
 
-[Editable Blender file](cases/imac-27-5k-2015/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) · [Edit all parts in Blender](cases/imac-27-5k-2015/cad/edit-parts.blend) · [Parametric clamp](cases/imac-27-5k-2015/cad/cable-clamp.FCStd) · [Clamp STEP](cases/imac-27-5k-2015/cad/cable-clamp.step) · [Lid STEP](cases/imac-27-5k-2015/cad/lid.step) · [CAD reports](cases/imac-27-5k-2015/validation/) · [Evidence and limitations](docs/method.md)
+[Edit this case in Blender or FreeCAD](cases/imac-27-5k-2015/cad/)
 
 ## AURA S-60-12
 
-![Numbered interior guide showing the bare base and installed assembly](cases/aura-s60/renders/interior-guide.png)
+![S-60-12 housing seated in its enclosure](cases/aura-s60/renders/reference-installed.png)
 
-The metal housing rests on four floor pads **(1)**. Side stops **(2)** locate it horizontally. The DC guides **(3)** run beside the housing toward the opposite end. At each port the cable jacket rests on its saddle **(4)**. Four corner posts **(5)** receive the lid screws.
+For the **86 × 58.02 × 33.02 mm** S-60-12 metal supply represented by the STEP reference. The case measures **148 × 88 × 42.8 mm**.
 
-The right-hand image shows the **86 × 58.02 × 33.02 mm STEP reference** installed with its terminals visible. Four fixed pads on the underside of the lid approach the folded metal edges. The calculated vertical play is about **0.18 mm**, so check that the physical housing seats on all four supports before fitting the lid. [Full-size installed view](cases/aura-s60/renders/reference-installed.png)
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) · [Graphite plate ×5](cases/aura-s60/print/plates/01-graphite-5.3mf) · [Ivory plate ×7](cases/aura-s60/print/plates/02-ivory-7.3mf)
 
-**Metal S-60-12 · 86 × 58.02 × 33.02 mm STEP reference**  
-Assembled enclosure **148 × 88 × 42.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip) · [Graphite plate ×5](cases/aura-s60/print/plates/01-graphite-5.3mf) · [Ivory plate ×7](cases/aura-s60/print/plates/02-ivory-7.3mf)
-
-| Closed enclosure | Opposite end |
+| Bare base | Underside of lid |
 |---|---|
-| ![Closed enclosure](cases/aura-s60/renders/exterior.png) | ![Rear three-quarter view](cases/aura-s60/renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Support pads, stops and clamps inside the empty enclosure](cases/aura-s60/renders/interior.png) | ![Lid and fasteners lifted from the body](cases/aura-s60/renders/exploded.png) |
+| ![Bare enclosure floor](cases/aura-s60/renders/base.png) | ![Lid underside](cases/aura-s60/renders/lid-underside.png) |
 
-The exposed supports follow the metal housing from the STEP assembly. The open view shows both cable saddles and the corner lid posts.
+The housing sits on four floor pads with the terminals toward the cable entry. A guide beside the housing carries the DC lead to the opposite end.
+
+Fixed pads on the lid sit over the folded metal edges. The calculated vertical play is 0.18 mm.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](cases/aura-s60/renders/exterior.png) | ![Rear three-quarter view](cases/aura-s60/renders/rear.png) | ![Exploded enclosure](cases/aura-s60/renders/exploded.png) |
+
+<details>
+<summary>Dimensions, assembly sequence and individual STL downloads</summary>
 
 ### Fit and assembly
 
@@ -112,11 +117,6 @@ Keep the original metal shell in place and orient the terminals toward the AC en
 Both ports are on opposite ends. The DC route beside the housing was designed for approximately 5–8 mm cable. Secure each jacket with a clamp, check the bend at the terminals, then install the four lid screws. Side intakes and the wavy lid openings provide an air path. Load temperature has not been measured.
 
 The interior view shows the printed supports and both clamps with the reference supply hidden. The editable Blender file contains the five printable parts at their print origins. The supplier STEP is excluded from distribution.
-
-**Print orientation.** Print the lid exterior face down. Place the body on its floor, screws on their heads and clamps flat side down.
-
-<details>
-<summary>Individual STL downloads and quantities</summary>
 
 | Individual STL | Color | Quantity |
 |---|---|---:|
@@ -129,26 +129,30 @@ The interior view shows the printed supports and both clamps with the reference 
 
 </details>
 
-[Editable Blender file](cases/aura-s60/cad/parts.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-cad.zip) · [Edit all parts in Blender](cases/aura-s60/cad/edit-parts.blend) · [Parametric clamp](cases/aura-s60/cad/cable-clamp.FCStd) · [Clamp STEP](cases/aura-s60/cad/cable-clamp.step) · [Lid STEP](cases/aura-s60/cad/lid.step) · [CAD reports](cases/aura-s60/validation/) · [Evidence and limitations](docs/method.md)
+[Edit this case in Blender or FreeCAD](cases/aura-s60/cad/)
 
 ## AURA Compact 160
 
-![Numbered interior guide showing the bare base and installed assembly](cases/aura-compact-160/renders/interior-guide.png)
+![Compact housing envelope installed](cases/aura-compact-160/renders/interior.png)
 
-The floor pads **(1)** carry the metal housing. Lateral stops **(2)** set its position. The DC cable guide **(3)** defines the return route along the wall. At the maximum modeled envelope the route narrows to **5.2 mm**, with **13.7 mm** between the terminal end and the cable saddle **(4)**. Check the bend as well as the jacket diameter. The gray block in the right-hand view represents the estimated dimensions.
+For a metal supply estimated at **110 × 100 × 36 mm**. The case measures **160 × 124 × 48.8 mm**.
 
-Four **03 lid screws** engage the corner posts **(5)**. The two shorter **06 hold-down screws** pass through separate threaded bosses beside the lid vents and take up vertical play. Both tips must bear on solid metal on the actual supply. The lid-underside comparison below identifies those bosses.
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) · [Black plate ×5](cases/aura-compact-160/print/plates/01-black-5.3mf) · [White plate ×9](cases/aura-compact-160/print/plates/02-white-9.3mf)
 
-**Metal housing · 110 × 98–100 × 35–36 mm photographic estimate**  
-Assembled enclosure **160 × 124 × 48.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip) · [Black plate ×5](cases/aura-compact-160/print/plates/01-black-5.3mf) · [White plate ×9](cases/aura-compact-160/print/plates/02-white-9.3mf)
-
-| Closed enclosure | Opposite end |
+| Bare base | Underside of lid |
 |---|---|
-| ![Closed enclosure](cases/aura-compact-160/renders/exterior.png) | ![Rear three-quarter view](cases/aura-compact-160/renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Metal housing envelope and independent cable clamps](cases/aura-compact-160/renders/interior.png) | ![Lid and fasteners lifted from the body](cases/aura-compact-160/renders/exploded.png) |
+| ![Bare enclosure floor](cases/aura-compact-160/renders/base.png) | ![Lid underside](cases/aura-compact-160/renders/lid-underside.png) |
 
-The gray block shows the supply envelope. Two lid screws take up vertical play by contacting solid metal on the housing.
+The floor pads support the metal case. The side stops set its position and the narrow channel beside them carries the DC lead. The gray block shows the envelope used for the fit check.
+
+The two threaded bosses beside the vents carry the short hold-down screws. Their tips must bear on solid metal.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](cases/aura-compact-160/renders/exterior.png) | ![Rear three-quarter view](cases/aura-compact-160/renders/rear.png) | ![Exploded enclosure](cases/aura-compact-160/renders/exploded.png) |
+
+<details>
+<summary>Dimensions, assembly sequence and individual STL downloads</summary>
 
 ### Fit and assembly
 
@@ -159,11 +163,6 @@ The compact layout reduces the footprint by 18.3% compared with the earlier 184 
 Place the metal-cased unit on the supports with its terminals toward the input. Fit both cable clamps and the four peripheral lid screws. The two short screws beside the lid vents take up vertical play. Their nominal contact points are X = ±48 mm and Y = −2 mm from the case center. Use them only where both tips meet solid housing metal. Mounting-hole spacing was estimated at 75–80 mm and was not used as a fixing datum.
 
 The gray interior block represents the estimated housing envelope. Confirm wall clearance, contact points and cable retention on the physical assembly.
-
-**Print orientation.** Print the lid exterior face down. Place the body on its floor, screws on their heads and clamps flat side down.
-
-<details>
-<summary>Individual STL downloads and quantities</summary>
 
 | Individual STL | Color | Quantity |
 |---|---|---:|
@@ -177,26 +176,30 @@ The gray interior block represents the estimated housing envelope. Confirm wall 
 
 </details>
 
-[Editable Blender file](cases/aura-compact-160/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) · [Edit all parts in Blender](cases/aura-compact-160/cad/edit-parts.blend) · [Parametric clamp](cases/aura-compact-160/cad/cable-clamp.FCStd) · [Clamp STEP](cases/aura-compact-160/cad/cable-clamp.step) · [Lid STEP](cases/aura-compact-160/cad/lid.step) · [CAD reports](cases/aura-compact-160/validation/) · [Evidence and limitations](docs/method.md)
+[Edit this case in Blender or FreeCAD](cases/aura-compact-160/cad/)
 
 ## Suncronizer
 
-![Numbered interior guide showing the bare base and installed assembly](cases/suncronizer/renders/interior-guide.png)
+![Supply and converter bays](cases/suncronizer/renders/interior.png)
 
-The long platform **(1)** reserves **110 × 65 × 32 mm** for the supply. The smaller platform **(2)** reserves **50 × 30 × 20 mm**, including connectors, for the converter. The divider **(3)** separates the bays. The gray blocks show the two design envelopes. The actual PCB mounting holes still need to be measured.
+An unpowered solar tracker demo. The case measures **164 × 116 × 39.8 mm** and has separate spaces for the supply and converter.
 
-For the unpowered demo, place the mock-ups on their platforms and check connector access. The opposite cable saddles **(4)** support the jackets. Four posts **(5)** receive the lid screws. The lid skirt overlaps the body wall by approximately **5 mm**. The open ports and ungasketed skirt provide no assigned ingress rating.
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Black plate ×5](cases/suncronizer/print/plates/01-black-5.3mf) · [Green plate ×7](cases/suncronizer/print/plates/02-green-7.3mf)
 
-**Solar tracker demo · 104 × 57–58 × 26 mm supply and separate DC converter**  
-Assembled enclosure **164 × 116 × 39.8 mm**. [Complete print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip) · [Black plate ×5](cases/suncronizer/print/plates/01-black-5.3mf) · [Green plate ×7](cases/suncronizer/print/plates/02-green-7.3mf)
-
-| Closed enclosure | Opposite end |
+| Bare base | Underside of lid |
 |---|---|
-| ![Closed enclosure](cases/suncronizer/renders/exterior.png) | ![Rear three-quarter view](cases/suncronizer/renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Supply and converter envelopes in their separate bays](cases/suncronizer/renders/interior.png) | ![Lid and fasteners lifted from the body](cases/suncronizer/renders/exploded.png) |
+| ![Bare enclosure floor](cases/suncronizer/renders/base.png) | ![Lid underside](cases/suncronizer/renders/lid-underside.png) |
 
-The two gray blocks show the supply and converter positions. The divider separates their reserved spaces.
+The longer platform accepts the supply. The smaller bay beside the divider accepts the converter. The gray blocks show reserved space including connector clearance.
+
+The skirt overlaps the body wall by about 5 mm. The cable ports are open.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](cases/suncronizer/renders/exterior.png) | ![Rear three-quarter view](cases/suncronizer/renders/rear.png) | ![Exploded enclosure](cases/suncronizer/renders/exploded.png) |
+
+<details>
+<summary>Dimensions, assembly sequence and individual STL downloads</summary>
 
 ### Component bays and demonstration assembly
 
@@ -205,11 +208,6 @@ The open supply was estimated at **104 × 57–58 × 26 mm**. Height has the gre
 For an unpowered demonstration, place the component mock-ups in their bays, route the demonstration cables through the opposite ports and secure the jackets with the two clamps. Install the green lid with its four recessed screws. The 32 engraved rays sit above the solid lid. Its skirt overlaps the body by approximately 5 mm.
 
 The ports are open and the lid has no gasket. Keep the demonstration electronics dry. No ingress rating, thermal test or outdoor mains operating approval has been established.
-
-**Print orientation.** Print the engraved lid exterior face down with its skirt rising from the bed. Place the body on its floor, screws on their heads and clamps flat side down.
-
-<details>
-<summary>Individual STL downloads and quantities</summary>
 
 | Individual STL | Color | Quantity |
 |---|---|---:|
@@ -222,13 +220,7 @@ The ports are open and the lid has no gasket. Keep the demonstration electronics
 
 </details>
 
-[Editable Blender file](cases/suncronizer/cad/assembly.blend) · [Complete CAD kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-cad.zip) · [Edit all parts in Blender](cases/suncronizer/cad/edit-parts.blend) · [Parametric clamp](cases/suncronizer/cad/cable-clamp.FCStd) · [Clamp STEP](cases/suncronizer/cad/cable-clamp.step) · [Lid STEP](cases/suncronizer/cad/lid.step) · [CAD reports](cases/suncronizer/validation/) · [Evidence and limitations](docs/method.md)
-
-## Under the lids
-
-![Lid underside comparison: fixed S-60-12 pads, Compact threaded hold-downs and Suncronizer skirt](docs/lid-undersides.png)
-
-The S-60-12 lid locates the reference housing with fixed pads. Compact 160 uses two adjustable screws. Suncronizer uses a perimeter skirt to locate the cover above the demo bays.
+[Edit this case in Blender or FreeCAD](cases/suncronizer/cad/)
 
 ## Printing on the P1S
 
@@ -243,7 +235,7 @@ All four case kits are designed for a **Bambu Lab P1S with a 256 × 256 mm plate
 
 | Case | Lid on the print bed | Plate 1 | Plate 2 |
 |---|---|---:|---:|
-| [ARC Slim Grip](cases/imac-27-5k-2015/) | Flat underside on bed, sculpted face up | 13 graphite | 11 ivory |
+| [Delta iMac 27″ Late 2015 Power Supply](cases/imac-27-5k-2015/) | Flat underside on bed, sculpted face up | 13 graphite | 11 ivory |
 | [AURA S-60-12](cases/aura-s60/) | Exterior face down | 5 graphite | 7 ivory |
 | [AURA Compact 160](cases/aura-compact-160/) | Exterior face down | 5 black | 9 white |
 | [Suncronizer](cases/suncronizer/) | Engraved face down, skirt up | 5 black | 7 green |
@@ -254,7 +246,7 @@ Bodies print floor-down, screws head-down and cable clamps flat-side-down. Insta
 
 | Design | Dimensional input | Digital check | Physical question |
 |---|---|---|---|
-| ARC Slim Grip | Photographic estimates of the Delta PCB | Mount travel, mating threads and isolated cable clamps | Actual hole coordinates, solder clearance and jacket retention |
+| Delta iMac 27″ Late 2015 Power Supply | Photographic estimates of the Delta PCB | Mount travel, mating threads and isolated cable clamps | Actual hole coordinates, solder clearance and jacket retention |
 | AURA S-60-12 | Supplied STEP assembly with 44 solids | Interference between enclosure parts and the reference metal supply | Production unit variation |
 | AURA Compact 160 | Estimated metal housing dimensions | Two rectangular envelopes and adjustable hold-downs | Solid contact points and full cable bend |
 | Suncronizer | Estimated supply and provisional converter size | Separation of two reserved volumes from body and lid | Converter selection, PCB mounting and water protection |

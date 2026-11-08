@@ -1,28 +1,36 @@
-# ARC Slim Grip
+# Delta iMac 27″ Late 2015 Power Supply
 
-![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+![Open iMac enclosure with the lid and four lid screws beside the base](renders/delta-imac-27-2015-power-supply-case.png)
 
-The square guides **(1)** accept four sliding shoes. Each shoe can move in two directions before its foot locks it from underneath. The baffles **(2)** screen the side slots, leaving a nominal 5 mm air passage above them. At either end the cable rests on a saddle **(3)** between threaded clamp posts **(4)**. The recessed floor panels **(5)** leave ribs between the four mounting zones.
+Enclosure for the **Delta ADP-300AF T**, the 300 W power supply in the 27-inch Retina 5K iMac (Late 2015). The board mounts on four adjustable shoes. The finished case measures **190 × 166 × 50 mm**, including the feet.
 
-![Six iMac fastener and support types, labeled with the printable part numbers](renders/hardware-guide.png)
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-cad.zip) · [Graphite plate ×13](print/plates/01-graphite-13.3mf) · [Ivory plate ×11](print/plates/02-ivory-11.3mf)
 
-**Match the numbers on the sheet to the STL filenames.** Four **03 lid screws** have 14 mm heads and a nominal 10 mm custom thread with 3 mm pitch. Four **05 locking feet** engage the underside of the **04 shoes**. The feet carry the case on the work surface. Each 16 × 16 mm shoe has a 3.2 mm upper stud for one **06 PCB nut**. The two **07 cable clamps** each take two **08 clamp screws**, with 11 mm heads and nominal 6 mm threads at 1.2 mm pitch.
-
-![Local exploded sections of the lid screw and post, PCB mount and locking foot, and cable clamp with screws](renders/fastening-sections.png)
-
-Read the middle section from the bench upward: **locking foot → floor opening → sliding shoe → PCB mounting ring → nut**. The PCB mounting plane is 5.8 mm above the *exterior* of the floor. The plate itself is omitted from the section. The extra spacing between parts in the exploded views is for legibility. The right section shows how the two screws load the clamp against the jacket and saddle. Tightening the lid screws does not tighten the cable clamps.
-
-Delta ADP-300AF T, the 300 W supply used in the 27-inch Retina 5K iMac (Late 2015). Assembled exterior **190 × 166 × 50 mm**.
-
-**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
-
-| Closed enclosure | Opposite end |
+| Bare base | Interior with supports and clamps |
 |---|---|
-| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Adjustable PCB shoes, baffles and cable clamp assemblies](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
+| ![Bare enclosure floor](renders/base.png) | ![Fitted base](renders/interior.png) |
 
-Adjustable PCB shoes, baffles and cable clamp assemblies. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+Four printed feet lock the sliding PCB supports from below. The raised strips along the sidewalls shield the vent openings. Each end has a saddle and two threaded posts for the cable clamp.
+
+### How the iMac board is held
+
+| Lid post | Board mount | Cable saddle |
+|---|---|---|
+| ![Lid screw aligned with the lid recess and corner post](renders/lid-post.png) | ![Nut, sliding shoe, floor and locking foot](renders/pcb-mount.png) | ![Two screws, clamp and cable saddle](renders/cable-saddle.png) |
+
+The **locking foot (05)** threads into the shoe from beneath the floor. Align all four shoes before tightening the feet. The PCB mounting ring sits between the shoe shoulder and **nut (06)**. The gaps in these exploded views are enlarged for visibility.
+
+| Lid screw · 03 | Sliding shoe · 04 | Locking foot · 05 |
+|---|---|---|
+| ![Lid screw](renders/lid-screw.png) | ![Sliding shoe](renders/sliding-shoe.png) | ![Locking foot](renders/locking-foot.png) |
+| **PCB nut · 06** | **Cable clamp · 07** | **Clamp screw · 08** |
+| ![PCB nut](renders/pcb-nut.png) | ![Cable clamp](renders/cable-clamp.png) | ![Clamp screw](renders/clamp-screw.png) |
+
+Part numbers match the STL filenames. The lid screws have 14 mm heads and 3 mm pitch. The longer clamp screws have 11 mm heads and 1.2 mm pitch. Two screws draw each clamp down onto the cable jacket.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) | ![Exploded enclosure](renders/exploded.png) |
 
 ## Edit the design
 
@@ -53,8 +61,6 @@ Print the sculpted lid **relief side up**. Set PCB shoes on their square bases, 
 Identify the supply by its manufacturer label before printing. Apple identifies the host computer as iMac17,1. The supplier lists Apple part 661-03524 for both Delta ADP-300AF T and Lite-On PA-1311-2A supplies. Mechanical fit was studied for the Delta board only. [Apple model identification](https://support.apple.com/en-gb/108054) · [Supplier part record](https://beetstech.com/product/imac-27-inch-a1419-300w-power-supply-661-03524)
 
 The photographic estimate is **163 ± 1 mm long, 132 ± 2 mm wide and 30 ± 5 mm high**. The design envelope allows 164 × 134 mm in plan and 35 mm above the mounting plane. Check the tallest heatsink and the solder joints below the board independently.
-
-![Top view of estimated PCB mounting centers and a vertical clearance section](renders/mounting-plan.svg)
 
 The 99 mm dimension is the vertical distance between mounting rows. The 3.4 mm underside gap is measured from the inner floor surface to the PCB support plane.
 

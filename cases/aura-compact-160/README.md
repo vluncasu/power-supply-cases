@@ -1,24 +1,22 @@
 # AURA Compact 160
 
-![Numbered interior guide showing the bare base and installed assembly](renders/interior-guide.png)
+![Compact housing envelope installed](renders/interior.png)
 
-The floor pads **(1)** carry the metal housing. Lateral stops **(2)** set its position. The DC cable guide **(3)** defines the return route along the wall. At the maximum modeled envelope the route narrows to **5.2 mm**, with **13.7 mm** between the terminal end and the cable saddle **(4)**. Check the bend as well as the jacket diameter. The gray block in the right-hand view represents the estimated dimensions.
+For a metal supply estimated at **110 × 100 × 36 mm**. The case measures **160 × 124 × 48.8 mm**.
 
-Four **03 lid screws** engage the corner posts **(5)**. The two shorter **06 hold-down screws** pass through separate threaded bosses beside the lid vents and take up vertical play. Both tips must bear on solid metal on the actual supply. The lid-underside comparison below identifies those bosses.
+[Print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip) · [CAD + print ZIP](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-cad.zip) · [Black plate ×5](print/plates/01-black-5.3mf) · [White plate ×9](print/plates/02-white-9.3mf)
 
-A metal-cased supply estimated at 110 × 98–100 × 35–36 mm from photographs. Assembled exterior **160 × 124 × 48.8 mm**.
-
-**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-compact-160-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
-
-| Closed enclosure | Opposite end |
+| Bare base | Underside of lid |
 |---|---|
-| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
-| **Lid removed** | **Exploded assembly** |
-| ![Metal housing envelope and independent cable clamps](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
+| ![Bare enclosure floor](renders/base.png) | ![Lid underside](renders/lid-underside.png) |
 
-Metal housing envelope and independent cable clamps. The exploded view lifts the lid and its fasteners to show their relationship to the body.
+The floor pads support the metal case. The side stops set its position and the narrow channel beside them carries the DC lead. The gray block shows the envelope used for the fit check.
 
-[Compare the underside of this lid with the other two designs](../../docs/lid-undersides.png)
+The two threaded bosses beside the vents carry the short hold-down screws. Their tips must bear on solid metal.
+
+| Closed | Opposite end | Lid removed from posts |
+|---|---|---|
+| ![Closed case](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) | ![Exploded enclosure](renders/exploded.png) |
 
 ## Edit the design
 

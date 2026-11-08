@@ -13,7 +13,7 @@ All four case kits are designed for a **Bambu Lab P1S with a 256 × 256 mm plate
 
 | Case | Lid on the print bed | Plate 1 | Plate 2 |
 |---|---|---:|---:|
-| [ARC Slim Grip](../cases/imac-27-5k-2015/) | Flat underside on bed, sculpted face up | 13 graphite | 11 ivory |
+| [Delta iMac 27″ Late 2015 Power Supply](../cases/imac-27-5k-2015/) | Flat underside on bed, sculpted face up | 13 graphite | 11 ivory |
 | [AURA S-60-12](../cases/aura-s60/) | Exterior face down | 5 graphite | 7 ivory |
 | [AURA Compact 160](../cases/aura-compact-160/) | Exterior face down | 5 black | 9 white |
 | [Suncronizer](../cases/suncronizer/) | Engraved face down, skirt up | 5 black | 7 green |

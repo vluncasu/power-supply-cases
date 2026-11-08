@@ -1,1 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" role="img" aria-labelledby="title desc"><title id="title">ARC Slim Grip mounting references</title><desc id="desc">Top view of the nominal PCB with four estimated hole positions. Vertical section gives CAD clearance above and below the board.</desc><rect width="800" height="430" fill="#faf8f3"/><g font-family="sans-serif" fill="#213941"><text x="30" y="35" font-size="22" font-weight="bold">ARC Slim Grip · mounting references</text><text x="30" y="62" font-size="15">Top view · origin at upper left · dimensions in mm</text><rect x="36" y="99" width="326" height="264" rx="2" fill="#dde8e3" stroke="#44585a"/><text x="175" y="89">163 mm</text><text x="371" y="235">132 mm</text><circle cx="60" cy="105" r="4" fill="#0c645c"/><text x="68" y="125" text-anchor="start" font-size="15">A (12, 3)</text><circle cx="356" cy="105" r="4" fill="#0c645c"/><text x="348" y="125" text-anchor="end" font-size="15">B (160, 3)</text><circle cx="46" cy="303" r="4" fill="#0c645c"/><text x="54" y="323" text-anchor="start" font-size="15">C (5, 102)</text><circle cx="352" cy="303" r="4" fill="#0c645c"/><text x="344" y="323" text-anchor="end" font-size="15">D (158, 102)</text><text x="451" y="104" font-size="18" font-weight="bold">Vertical section</text><text x="451" y="131" font-size="14">Clearance at maximum component height</text><rect x="455" y="158" width="292" height="7" fill="#253d44"/><rect x="455" y="183" width="190" height="126" fill="#c2d8cd"/><rect x="455" y="309" width="292" height="3" fill="#276454"/><rect x="455" y="323" width="292" height="8" fill="#253d44"/><g font-size="14"><text x="460" y="180">5 mm · overhead clearance</text><text x="465" y="250">35 mm · component height</text><text x="460" y="356">3.4 mm · nominal underside gap</text><text x="30" y="405">Hole centers estimated from photographs. Verify the physical board before mounting.</text></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 605" width="980" height="605" role="img" aria-labelledby="title desc">
+<title id="title">Delta ADP-300AF T mounting pattern and enclosure clearance</title>
+<desc id="desc">Nominal 163 by 132 mm board envelope. Estimated centers A (12,3), B (160,3), C (5,102), D (158,102), measured from the upper left. CAD section from the 2.4 mm floor through the 3.4 mm underside gap, 35 mm component allowance and 5 mm top gap.</desc>
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="#eef0f1"/><path d="M-2 2L2 -2M0 6L6 0M4 8L8 4" stroke="#7b858a" stroke-width=".8"/></pattern></defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#172228} .dim{fill:#18566a} .fine{stroke:#849296;fill:none;stroke-width:1} .measure{stroke:#18566a;fill:none;stroke-width:1.2} .ink{stroke:#19292f;fill:none;stroke-width:1.8}</style>
+<rect width="980" height="605" fill="white"/>
+<text x="30" y="39" font-size="28" text-anchor="start" font-weight="700" >Delta ADP-300AF T</text>
+<text x="949" y="37" font-size="15" text-anchor="end" font-weight="400" >ARC SLIM GRIP  /  mm</text>
+<path class="ink" d="M30 57 L950 57" />
+<text x="30" y="88" font-size="20" text-anchor="start" font-weight="700" >PCB mounting pattern</text>
+<text x="601" y="88" font-size="20" text-anchor="start" font-weight="700" >Vertical clearance</text>
+<path class="fine" d="M92 159 L92 122" />
+<path class="fine" d="M499.5 159 L499.5 122" />
+<path class="measure" d="M92 126 L499.5 126" />
+<path d="M92 126 L99.0 128.1 L99.0 123.9Z" fill="#18566a"/>
+<path d="M499.5 126 L492.5 128.1 L492.5 123.9Z" fill="#18566a"/>
+<text x="295.75" y="120" font-size="16" text-anchor="middle" font-weight="400" class="dim">163 ±1</text>
+<path class="fine" d="M88 163 L45 163" />
+<path class="fine" d="M88 493.0 L45 493.0" />
+<path class="measure" d="M49 163 L49 493.0" />
+<path d="M49 163 L46.9 170.0 L51.1 170.0Z" fill="#18566a"/>
+<path d="M49 493.0 L46.9 486.0 L51.1 486.0Z" fill="#18566a"/>
+<text x="37" y="328.0" font-size="16" text-anchor="middle" font-weight="400" class="dim" transform="rotate(-90 37 328.0)">132 ±2</text>
+<rect x="92" y="163" width="407.5" height="330.0" class="ink" stroke-dasharray="6 3"/>
+<text x="101" y="155" font-size="14">(0, 0)</text>
+<circle cx="122.0" cy="170.5" r="4.5" class="ink"/>
+<path class="fine" d="M114.0 170.5 L130.0 170.5" />
+<path class="fine" d="M122.0 162.5 L122.0 178.5" />
+<text x="134.0" y="191.5" font-size="15" text-anchor="start" font-weight="700" >A  (12, 3)</text>
+<circle cx="492.0" cy="170.5" r="4.5" class="ink"/>
+<path class="fine" d="M484.0 170.5 L500.0 170.5" />
+<path class="fine" d="M492.0 162.5 L492.0 178.5" />
+<text x="480.0" y="191.5" font-size="15" text-anchor="end" font-weight="700" >B  (160, 3)</text>
+<circle cx="104.5" cy="418.0" r="4.5" class="ink"/>
+<path class="fine" d="M96.5 418.0 L112.5 418.0" />
+<path class="fine" d="M104.5 410.0 L104.5 426.0" />
+<text x="116.5" y="439.0" font-size="15" text-anchor="start" font-weight="700" >C  (5, 102)</text>
+<circle cx="487.0" cy="418.0" r="4.5" class="ink"/>
+<path class="fine" d="M479.0 418.0 L495.0 418.0" />
+<path class="fine" d="M487.0 410.0 L487.0 426.0" />
+<text x="475.0" y="439.0" font-size="15" text-anchor="end" font-weight="700" >D  (158, 102)</text>
+<path class="fine" d="M122.0 180.5 L122.0 229" />
+<path class="fine" d="M492.0 180.5 L492.0 229" />
+<path class="measure" d="M122.0 225 L492.0 225" />
+<path d="M122.0 225 L129.0 227.1 L129.0 222.9Z" fill="#18566a"/>
+<path d="M492.0 225 L485.0 227.1 L485.0 222.9Z" fill="#18566a"/>
+<text x="307.0" y="219" font-size="16" text-anchor="middle" font-weight="400" class="dim">148</text>
+<path class="fine" d="M104.5 428.0 L104.5 467" />
+<path class="fine" d="M487.0 428.0 L487.0 467" />
+<path class="measure" d="M104.5 463 L487.0 463" />
+<path d="M104.5 463 L111.5 465.1 L111.5 460.9Z" fill="#18566a"/>
+<path d="M487.0 463 L480.0 465.1 L480.0 460.9Z" fill="#18566a"/>
+<text x="295.75" y="457" font-size="16" text-anchor="middle" font-weight="400" class="dim">153</text>
+<path class="fine" d="M502.5 170.5 L541 170.5" />
+<path class="fine" d="M502.5 418.0 L541 418.0" />
+<path class="measure" d="M537 170.5 L537 418.0" />
+<path d="M537 170.5 L534.9 177.5 L539.1 177.5Z" fill="#18566a"/>
+<path d="M537 418.0 L534.9 411.0 L539.1 411.0Z" fill="#18566a"/>
+<text x="530" y="292" font-size="16" text-anchor="middle" font-weight="400" class="dim" transform="rotate(-90 530 292)">99</text>
+<text x="92" y="523" font-size="15" text-anchor="start" font-weight="400" >Datum: upper-left corner. X right, Y down.</text>
+<text x="92" y="546" font-size="15" text-anchor="start" font-weight="400" >Hole labels give center coordinates (X, Y).</text>
+<rect x="610" y="464.4" width="188" height="15.6" fill="url(#hatch)" stroke="#19292f" stroke-width="1.5"/>
+<rect x="610" y="171.90000000000003" width="188" height="10.40000000000001" fill="url(#hatch)" stroke="#19292f" stroke-width="1.5"/>
+<rect x="630" y="214.8" width="140" height="227.5" fill="none" stroke="#71868c" stroke-dasharray="5 4"/>
+<path class="ink" d="M610 442.3 L798 442.3" />
+<text x="612" y="160.90000000000003" font-size="15" text-anchor="start" font-weight="400" >Lid skin</text>
+<text x="700" y="311" font-size="16" text-anchor="middle" font-weight="400" >Component</text>
+<text x="700" y="332" font-size="16" text-anchor="middle" font-weight="400" >envelope</text>
+<text x="610" y="515" font-size="15" text-anchor="start" font-weight="400" >Floor section · 2.4 thick</text>
+<path class="fine" d="M801 464.4 L852 464.4" />
+<path class="fine" d="M801 442.3 L852 442.3" />
+<path class="measure" d="M845 442.3 L845 464.4" />
+<path d="M845 442.3 L842.9 449.3 L847.1 449.3Z" fill="#18566a"/>
+<path d="M845 464.4 L842.9 457.4 L847.1 457.4Z" fill="#18566a"/>
+<text x="858" y="458.35" font-size="16" text-anchor="start" font-weight="400" class="dim">3.4</text>
+<path class="fine" d="M801 442.3 L852 442.3" />
+<path class="fine" d="M801 214.8 L852 214.8" />
+<path class="measure" d="M845 214.8 L845 442.3" />
+<path d="M845 214.8 L842.9 221.8 L847.1 221.8Z" fill="#18566a"/>
+<path d="M845 442.3 L842.9 435.3 L847.1 435.3Z" fill="#18566a"/>
+<text x="858" y="333.55" font-size="16" text-anchor="start" font-weight="400" class="dim">35 max.</text>
+<path class="fine" d="M801 214.8 L852 214.8" />
+<path class="fine" d="M801 182.3 L852 182.3" />
+<path class="measure" d="M845 182.3 L845 214.8" />
+<path d="M845 182.3 L842.9 189.3 L847.1 189.3Z" fill="#18566a"/>
+<path d="M845 214.8 L842.9 207.8 L847.1 207.8Z" fill="#18566a"/>
+<text x="858" y="203.55" font-size="16" text-anchor="start" font-weight="400" class="dim">5</text>
+<path class="fine" d="M610 442.3 L599 442.3" />
+<path class="fine" d="M599 442.3 L599 537" />
+<path class="fine" d="M599 537 L608 537" />
+<text x="613" y="542" font-size="14" text-anchor="start" font-weight="400" >PCB support plane · 5.8 above floor exterior</text>
+<path class="fine" d="M30 564 L950 564" />
+<text x="30" y="587" font-size="15" text-anchor="start" font-weight="400" >Plan dimensions estimated from photographs. Hole centers: approximately ±2 mm per axis.</text>
+</svg>

@@ -47,7 +47,7 @@ b992efb8b79526ea1552e15fb04c86c27e0f8b939a93c367a825eeb70ebd57c0  cases/aura-s60
 3c45d73c7ce257e7f59776f954ea45f5a232512d9f126fba76ab87d0a238920f  cases/aura-s60/validation/mesh_checks.json
 e8e88ecf64f9846f3c2479551906a9a9f040b4b7b31436326644b6b2b1ae1503  cases/aura-s60/validation/reference_fit.json
 6c426a015e9312689b7a033e88ba433db81d291bbafc569252fffba2411fcda7  cases/aura-s60/validation/validation.json
-d387df760518382a4552cf57718418e6cd947719f18a20910f55d2b941d51537  cases/imac-27-5k-2015/README.md
+bd1951bf3b15d6dce0057c225c26c64aa7d97fb68c47007363c6805c8f7a3891  cases/imac-27-5k-2015/README.md
 fa4d9a486a2b3d412703221a496389fa1914e7c484d9ed900bb444c98b242b64  cases/imac-27-5k-2015/cad/README.md
 bcf41ff861b47db97d4ff7ddb563c6b2b455a779380f4119db14e61c7320db48  cases/imac-27-5k-2015/cad/assembly.blend
 810fc07934010611520ce599703700428891562b0a91a658646caf68356eab94  cases/imac-27-5k-2015/cad/cable-clamp.FCStd
@@ -71,7 +71,7 @@ ec5a9aa7ca3658611cbe8a5bddbbdd7806f566a1f9247a10a5e3e989bac8538e  cases/imac-27-
 2df2eb9e9cc866f0a7539d6b734a8bc6ab4fefaf1479dfdbdf401eb9a98846b6  cases/imac-27-5k-2015/renders/hardware-guide.png
 41fc3ac821714e75e918f563a908606720a556648987ca03c1b706f2a1ecf2b5  cases/imac-27-5k-2015/renders/interior-guide.png
 7fff6f71d5e2e41ac291289a309cb6cda8c01145c72cced969dd5cbe6158897f  cases/imac-27-5k-2015/renders/interior.png
-6e0801fa1b32e7aea1f497191a486d17d0fb57e2ec3d8f4bd248bfbf6719edf8  cases/imac-27-5k-2015/renders/mounting-plan.svg
+08d357fa342ae245c08b3b0781a45c178c130c7f7406fc2ed195ff6c707216b0  cases/imac-27-5k-2015/renders/mounting-plan.svg
 6bc36bcf1261d43ddaab5f8fe8f0e889acd20f0fd05d7e59bf907dfb4902b489  cases/imac-27-5k-2015/renders/rear.png
 154746ae6f8289796464fce90bdc61f95f52f16cfbe906b051d65aa326a0fa1c  cases/imac-27-5k-2015/validation/clamp_checks.json
 a314f9bfe84b5dbe83b52b53ea57c278713b8396b31ef125b66ac841d6bf0ca4  cases/imac-27-5k-2015/validation/color-plates.json

@@ -15,6 +15,8 @@ The host is the A1419 iMac17,1, 27-inch Retina 5K (Late 2015). The parts listing
 
 ![Mounting coordinates and height budget](../cases/imac-27-5k-2015/renders/mounting-plan.svg)
 
+The 99 mm dimension is the vertical distance between mounting rows. The 3.4 mm underside gap is measured from the inner floor surface to the PCB support plane.
+
 Coordinates use the top-left PCB corner in the orientation shown. X increases rightward and Y downward. Estimated centers in mm are A (12, 3), B (160, 3), C (5, 102) and D (158, 102), each with approximately ±2 mm uncertainty. Row separation is 99 mm vertically. The horizontal spans are 148 and 153 mm. Check the diagonal alignment as well as the spans. The holes are estimated at 3.5–4 mm in diameter with an outer ring of approximately 8 mm. The printed pads are 9 mm across.
 
 At maximum modeled component height, 5 mm remains between the component envelope and the inner ceiling. The nominal 3.4 mm gap under the PCB must accommodate the actual solder projections. The 12.6 mm cable ports are on opposite ends. The clamp fit study covers round jackets 4–12 mm in diameter. The two clearances and clamp range describe geometry. Electrical insulation, heat dissipation and strain relief require physical assessment.

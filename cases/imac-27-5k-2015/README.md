@@ -56,6 +56,8 @@ The photographic estimate is **163 ± 1 mm long, 132 ± 2 mm wide and 30 ± 5 mm
 
 ![Top view of estimated PCB mounting centers and a vertical clearance section](renders/mounting-plan.svg)
 
+The 99 mm dimension is the vertical distance between mounting rows. The 3.4 mm underside gap is measured from the inner floor surface to the PCB support plane.
+
 | Mount | X from left edge (mm) | Y from top edge (mm) |
 |---|---:|---:|
 | A | 12 | 3 |

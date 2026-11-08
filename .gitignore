@@ -1,7 +1,10 @@
+# Local editor, Python and Blender artifacts
 .DS_Store
 __pycache__/
 *.pyc
 *.blend1
 .venv/
+
+# Locally regenerated meshes and platform-specific dependencies
 cases/*/final/
 cases/*/source/vendor/

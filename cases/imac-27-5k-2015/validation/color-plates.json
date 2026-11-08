@@ -1,14 +1,14 @@
 [
   {
-    "file": "01_GRAFIT_13_piese.3mf",
-    "color": "Grafit",
+    "file": "01_GRAPHITE_13_pieces.3mf",
+    "color": "Graphite",
     "pieces": 13,
     "within_bed": true,
     "overlapping_footprints": false
   },
   {
-    "file": "02_FILDES_11_piese.3mf",
-    "color": "Fildes",
+    "file": "02_IVORY_11_pieces.3mf",
+    "color": "Ivory",
     "pieces": 11,
     "within_bed": true,
     "overlapping_footprints": false

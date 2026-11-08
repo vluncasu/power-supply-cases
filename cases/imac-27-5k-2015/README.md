@@ -1,52 +1,63 @@
 # ARC Slim Grip
 
-Delta ADP-300AF T, iMac 27″ Retina 5K Late 2015. Exterior **190 × 166 × 50 mm**.
+Delta ADP-300AF T, the 300 W supply used in the 27-inch Retina 5K iMac (Late 2015). Assembled exterior **190 × 166 × 50 mm**.
 
-![Exterior](renders/exterior.png)
+**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
 
-[Vedere interioară](renders/interior.png)
+| Closed enclosure | Opposite end |
+|---|---|
+| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
+| **Lid removed** | **Exploded assembly** |
+| ![Adjustable PCB shoes, baffles and cable clamp assemblies](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
-## Imprimare
+Adjustable PCB shoes, baffles and cable clamp assemblies. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
-Plăci pregătite pentru P1S, duză 0,4 mm și strat de 0,20 mm, câte o culoare pe placă. [graphite ×13](print/plates/01-graphite-13.3mf) · [ivory ×11](print/plates/02-ivory-11.3mf)
+## Print on a Bambu Lab P1S
 
-3MF-urile includ toate exemplarele. Dacă imporți STL-urile, setează cantitățile de mai jos. [Instrucțiuni comune](../../docs/printing.md)
+Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Graphite plate (13 pieces)](print/plates/01-graphite-13.3mf) · [Ivory plate (11 pieces)](print/plates/02-ivory-11.3mf)
 
-| Piesă STL | Filament | Exemplare |
+Print the sculpted lid **relief side up**. Set PCB shoes on their square bases, nuts on a flat face, feet and screws on their heads, and clamps with their ribs up. The separate STL files each contain one part. Use the quantities below when importing them individually. [Slicer setup and first-layer checks](../../docs/printing.md)
+
+| Individual STL | Color | Quantity |
 |---|---|---:|
-| [base](print/stl/graphite/01_base_x1.stl) | graphite | 1 |
-| [relief-lid](print/stl/ivory/02_relief-lid_x1.stl) | ivory | 1 |
-| [lid-screw](print/stl/ivory/03_lid-screw_x4.stl) | ivory | 4 |
-| [xy-pcb-support](print/stl/ivory/04_xy-pcb-support_x4.stl) | ivory | 4 |
-| [locking-foot](print/stl/graphite/05_locking-foot_x4.stl) | graphite | 4 |
-| [pcb-nut](print/stl/graphite/06_pcb-nut_x4.stl) | graphite | 4 |
-| [cable-clamp](print/stl/ivory/07_cable-clamp_x2.stl) | ivory | 2 |
-| [clamp-screw](print/stl/graphite/08_clamp-screw_x4.stl) | graphite | 4 |
+| [Base](print/stl/graphite/01_base_x1.stl) | Graphite | 1 |
+| [Relief lid](print/stl/ivory/02_relief-lid_x1.stl) | Ivory | 1 |
+| [Lid screw](print/stl/ivory/03_lid-screw_x4.stl) | Ivory | 4 |
+| [Xy pcb support](print/stl/ivory/04_xy-pcb-support_x4.stl) | Ivory | 4 |
+| [Locking foot](print/stl/graphite/05_locking-foot_x4.stl) | Graphite | 4 |
+| [Pcb nut](print/stl/graphite/06_pcb-nut_x4.stl) | Graphite | 4 |
+| [Cable clamp](print/stl/ivory/07_cable-clamp_x2.stl) | Ivory | 2 |
+| [Clamp screw](print/stl/graphite/08_clamp-screw_x4.stl) | Graphite | 4 |
 | **Total** | | **24** |
 
-## Proiectare și montaj
+### Board dimensions and mounting coordinates
 
-Placa Delta are un gabarit nominal estimat de 163 × 132 mm. Proiectul admite până la 164 × 134 mm și componente înalte de 35 mm. Identifică producătorul pe eticheta sursei. Varianta Lite-On apare în cataloage sub același cod de piesă Apple și nu a fost verificată geometric aici.
+Identify the supply by its manufacturer label before printing. Apple identifies the host computer as iMac17,1. The supplier lists Apple part 661-03524 for both Delta ADP-300AF T and Lite-On PA-1311-2A supplies. Mechanical fit was studied for the Delta board only. [Apple model identification](https://support.apple.com/en-gb/108054) · [Supplier part record](https://beetstech.com/product/imac-27-inch-a1419-300w-power-supply-661-03524)
 
-**De ce are 50 mm înălțime.** Planul plăcii se află la 5,8 mm de fundul exterior. Pentru componente de 35 mm rămân 5 mm până la plafonul situat la 45,8 mm. Rama capacului și cele patru picioare completează înălțimea totală. Sub PCB, față de podeaua de 2,4 mm, sunt nominal 3,4 mm. Verifică separat proeminențele lipiturilor.
+The photographic estimate is **163 ± 1 mm long, 132 ± 2 mm wide and 30 ± 5 mm high**. The design envelope allows 164 × 134 mm in plan and 35 mm above the mounting plane. Check the tallest heatsink and the solder joints below the board independently.
 
-![Plan cotat al prinderilor și secțiune verticală](renders/mounting-plan.svg)
+![Top view of estimated PCB mounting centers and a vertical clearance section](renders/mounting-plan.svg)
 
-| Gaură | X de la stânga (mm) | Y de sus (mm) |
+| Mount | X from left edge (mm) | Y from top edge (mm) |
 |---|---:|---:|
 | A | 12 | 3 |
 | B | 160 | 3 |
 | C | 5 | 102 |
 | D | 158 | 102 |
 
-Coordonatele sunt estimări fotografice cu incertitudine de circa ±2 mm. Diametrul găurilor a fost estimat la 3,5–4 mm. Cele patru suporturi mobile permit reglaj independent în ambele direcții. Strânge ușor picioarele inferioare după aliniere, apoi piulițele PCB pe zonele de montaj. Filetele imprimate sunt personalizate. Dacă PCB-ul se îndoaie sau suportul atinge componente, oprește montajul.
+The estimated uncertainty is ±2 mm per coordinate. Horizontal hole spacing is 148 mm in the upper row and 153 mm in the lower row. The rows are 99 mm apart vertically. Estimated hole diameters are 3.5–4 mm with an approximately 8 mm outer mounting ring. The four sliding shoes have 3.2 mm printed studs and 9 mm support pads.
 
-**Ventilație și cabluri.** Cele 44 de fante laterale însumează circa 1.380 mm² în CAD. Șicanele interioare lasă pasaje de circa 1.040 mm². Debitul și temperatura în sarcină rămân nemăsurate. Intrarea și ieșirea sunt pe capete opuse. Fiecare bridă prinde mantaua unui cablu rotund. Verificările de interferență acoperă Ø4, 6, 8, 10 și 12 mm. Cablurile vizibile în randări ilustrează Ø12 mm.
+### Height, airflow and material
 
-Capacul se imprimă **cu relieful în sus**. Șuruburile stau pe cap, suporturile pe talpa pătrată, piulițele pe o față și bridele cu nervurile în sus. La montaj, întoarce bridele cu nervurile către manta. Strânge alternativ cele două șuruburi ale fiecărei bride.
+The board plane is 5.8 mm above the exterior floor. The height budget is **5.8 + 35 + 5 = 45.8 mm** to the inner ceiling. The lid frame and feet bring the total to 50 mm. Above the 2.4 mm floor, the nominal underside gap is 3.4 mm. It is a mechanical allowance and requires checking against actual solder projections and electrical requirements.
 
-**Justificarea reliefului.** Capacul folosește 20 de suprafețe curbe cu relief de 1,2 mm. Volumul solid cumulat al celor 24 de piese este 249,93 cm³, față de 374,03 cm³ pentru revizia SCULPT. Reducerea calculată este de 33,18%. Consumul și durata efective depind de feliere. [Comparația CAD](validation/comparison.json)
+Two rows of chevron slots feed baffled side passages. The 44 slots have a combined nominal opening of about 1,380 mm². The passages above the baffles provide about 1,040 mm². Airflow and operating temperatures have not been measured. The 20 curved lid tiles rise 1.2 mm above the skin. Total CAD solid volume is 249.93 cm³, a 33.18% reduction from the earlier SCULPT design. Sliced filament use depends on toolpaths. [CAD comparison](validation/comparison.json)
 
-Apple identifică sistemul ca iMac17,1. Catalogul Beetstech asociază codul Apple 661-03524 cu sursa de 300 W și codurile Delta ADP-300AF T și Lite-On PA-1311-2A. Aceste referințe stabilesc identitatea piesei. Cotele de mai sus provin din estimările proiectului. [Apple, identificarea modelului](https://support.apple.com/en-gb/108054) · [Beetstech, catalogul sursei](https://beetstech.com/product/imac-27-inch-a1419-300w-power-supply-661-03524)
+### Assembly sequence
 
-[Fișier Blender](cad/assembly.blend) · [Generatorul geometriei](source/build.py) · [Rapoarte CAD](validation/) · [Metodă și limite](../../docs/method.md)
+1. Place the four shoes in their guides. Engage the locking feet from beneath and leave them loose enough to align.
+2. Check each support against the actual board. Confirm that the underside clears the floor and that each pad contacts only a mounting area. Secure the feet and printed nuts gently. The short printed threads are sensitive to printer tolerances.
+3. Place one jacketed cable on each saddle. Turn each clamp ribs-down and tighten its two screws evenly. The entry and exit are on opposite ends. CAD checks cover round jackets of 4, 6, 8, 10 and 12 mm through 12.6 mm ports. The renders illustrate 12 mm cables. Pull-out resistance has not been measured.
+4. Fit the lid with its four recessed screws. Keep the side vents clear.
+
+[Editable Blender file](cad/assembly.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

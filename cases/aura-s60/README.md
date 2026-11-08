@@ -1,34 +1,40 @@
 # AURA S-60-12
 
-S-60-12 din modelul STEP, 86 × 58,02 × 33,02 mm. Exterior **148 × 88 × 42,8 mm**.
+The metal S-60-12 supply represented by the supplied 86 × 58.02 × 33.02 mm STEP assembly. Assembled exterior **148 × 88 × 42.8 mm**.
 
-![Exterior](renders/exterior.png)
+**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/aura-s60-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
 
-[Vedere interioară](renders/interior.png)
+| Closed enclosure | Opposite end |
+|---|---|
+| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
+| **Lid removed** | **Exploded assembly** |
+| ![Support pads, stops and clamps inside the empty enclosure](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
-## Imprimare
+Support pads, stops and clamps inside the empty enclosure. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
-Plăci pregătite pentru P1S, duză 0,4 mm și strat de 0,20 mm, câte o culoare pe placă. [graphite ×5](print/plates/01-graphite-5.3mf) · [ivory ×7](print/plates/02-ivory-7.3mf)
+## Print on a Bambu Lab P1S
 
-3MF-urile includ toate exemplarele. Dacă imporți STL-urile, setează cantitățile de mai jos. [Instrucțiuni comune](../../docs/printing.md)
+Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Graphite plate (5 pieces)](print/plates/01-graphite-5.3mf) · [Ivory plate (7 pieces)](print/plates/02-ivory-7.3mf)
 
-| Piesă STL | Filament | Exemplare |
+Print the lid exterior face down. Place the body on its floor, screws on their heads and clamps flat side down. The separate STL files each contain one part. Use the quantities below when importing them individually. [Slicer setup and first-layer checks](../../docs/printing.md)
+
+| Individual STL | Color | Quantity |
 |---|---|---:|
-| [body](print/stl/graphite/01_body_x1.stl) | graphite | 1 |
-| [wave-lid](print/stl/ivory/02_wave-lid_x1.stl) | ivory | 1 |
-| [lid-screw](print/stl/ivory/03_lid-screw_x4.stl) | ivory | 4 |
-| [cable-clamp](print/stl/ivory/04_cable-clamp_x2.stl) | ivory | 2 |
-| [clamp-screw](print/stl/graphite/05_clamp-screw_x4.stl) | graphite | 4 |
+| [Body](print/stl/graphite/01_body_x1.stl) | Graphite | 1 |
+| [Wave lid](print/stl/ivory/02_wave-lid_x1.stl) | Ivory | 1 |
+| [Lid screw](print/stl/ivory/03_lid-screw_x4.stl) | Ivory | 4 |
+| [Cable clamp](print/stl/ivory/04_cable-clamp_x2.stl) | Ivory | 2 |
+| [Clamp screw](print/stl/graphite/05_clamp-screw_x4.stl) | Graphite | 4 |
 | **Total** | | **12** |
 
-## Proiectare și montaj
+### Fit and assembly
 
-Potrivirea a fost evaluată pe modelul STEP de referință. Identificatorul comercial S-60-12 apare pe surse cu gabarite diferite. Verifică dimensiunile sursei fizice și poziția bornelor înainte de a alege această carcasă. [Raport de intersecție cu modelul de referință](validation/reference_fit.json)
+The measured STEP envelope, including small projections, is **86 × 58.02 × 33.02 mm**. Those decimals describe the reference geometry. Check the metal housing and terminal location on the physical unit. The original reference contained 44 solids. [Reference interference check](validation/reference_fit.json)
 
-Sursa își păstrează carcasa metalică. Cele patru platforme și opritoarele limitează mișcarea. Jocul vertical nominal este de aproximativ 0,18 mm, deci toleranțele imprimării și ale piesei reale pot influența închiderea. Capacul ondulat și admisiile laterale păstrează un traseu pentru aer. Nu există măsurători de temperatură în sarcină.
+Keep the original metal shell in place and orient the terminals toward the AC end. Four pads support the shell. Stops limit lateral travel, and the closed lid leaves about 0.18 mm nominal vertical play at the upper stops. This small allowance makes actual dimensions and print tolerance particularly important.
 
-Așază bornele către intrarea AC. Ieșirea DC ajunge la capătul opus prin culoarul lateral proiectat pentru aproximativ Ø5–8 mm. Montează bridele pe mantale, apoi capacul cu cele patru șuruburi. Imprimă exteriorul capacului pe pat, șuruburile pe cap și bridele pe fața plată.
+Both ports are on opposite ends. The DC route beside the housing was designed for approximately 5–8 mm cable. Secure each jacket with a clamp, check the bend at the terminals, then install the four lid screws. Side intakes and the wavy lid openings provide an air path. Load temperature has not been measured.
 
-Fișierul Blender conține piesele carcasei în orientarea de imprimare, suprapuse la origine. Selectează individual piesele pentru editare. Modelul comercial de referință provenit din fișierul STEP nu este redistribuit.
+The interior view shows the printed supports and both clamps with the reference supply hidden. The editable Blender file contains the five printable parts at their print origins. The supplier STEP is excluded from distribution.
 
-[Fișier Blender](cad/parts.blend) · [Generatorul geometriei](source/build.py) · [Rapoarte CAD](validation/) · [Metodă și limite](../../docs/method.md)
+[Editable Blender file](cad/parts.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

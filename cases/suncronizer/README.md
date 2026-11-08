@@ -1,32 +1,38 @@
 # Suncronizer
 
-Machetă pentru sursă 104 × 58 × 26 mm și convertitor 12 V → 5 V. Exterior **164 × 116 × 39,8 mm**.
+Unpowered solar-tracker demonstration with a 104 × 57–58 × 26 mm supply and a separate 12 V to 5 V converter. Assembled exterior **164 × 116 × 39.8 mm**.
 
-![Exterior](renders/exterior.png)
+**[Download the P1S print kit](https://github.com/vluncasu/power-supply-cases/releases/latest/download/suncronizer-print.zip)** · [Compare supply dimensions](../../docs/dimensions.md)
 
-[Vedere interioară](renders/interior.png)
+| Closed enclosure | Opposite end |
+|---|---|
+| ![Closed enclosure](renders/exterior.png) | ![Rear three-quarter view](renders/rear.png) |
+| **Lid removed** | **Exploded assembly** |
+| ![Supply and converter envelopes in their separate bays](renders/interior.png) | ![Lid and fasteners lifted from the body](renders/exploded.png) |
 
-## Imprimare
+Supply and converter envelopes in their separate bays. The exploded view lifts the lid and its fasteners to show their relationship to the body.
 
-Plăci pregătite pentru P1S, duză 0,4 mm și strat de 0,20 mm, câte o culoare pe placă. [black ×5](print/plates/01-black-5.3mf) · [green ×7](print/plates/02-green-7.3mf)
+## Print on a Bambu Lab P1S
 
-3MF-urile includ toate exemplarele. Dacă imporți STL-urile, setează cantitățile de mai jos. [Instrucțiuni comune](../../docs/printing.md)
+Designed for the **256 × 256 mm P1S bed, 0.4 mm nozzle, 0.20 mm Strength profile and supports disabled**. Each geometric 3MF contains all copies for one filament color. [Black plate (5 pieces)](print/plates/01-black-5.3mf) · [Green plate (7 pieces)](print/plates/02-green-7.3mf)
 
-| Piesă STL | Filament | Exemplare |
+Print the engraved lid exterior face down with its skirt rising from the bed. Place the body on its floor, screws on their heads and clamps flat side down. The separate STL files each contain one part. Use the quantities below when importing them individually. [Slicer setup and first-layer checks](../../docs/printing.md)
+
+| Individual STL | Color | Quantity |
 |---|---|---:|
-| [body](print/stl/black/01_body_x1.stl) | black | 1 |
-| [solar-lid](print/stl/green/02_solar-lid_x1.stl) | green | 1 |
-| [lid-screw](print/stl/green/03_lid-screw_x4.stl) | green | 4 |
-| [cable-clamp](print/stl/green/04_cable-clamp_x2.stl) | green | 2 |
-| [clamp-screw](print/stl/black/05_clamp-screw_x4.stl) | black | 4 |
+| [Body](print/stl/black/01_body_x1.stl) | Black | 1 |
+| [Solar lid](print/stl/green/02_solar-lid_x1.stl) | Green | 1 |
+| [Lid screw](print/stl/green/03_lid-screw_x4.stl) | Green | 4 |
+| [Cable clamp](print/stl/green/04_cable-clamp_x2.stl) | Green | 2 |
+| [Clamp screw](print/stl/black/05_clamp-screw_x4.stl) | Black | 4 |
 | **Total** | | **12** |
 
-## Proiectare și montaj
+### Component bays and demonstration assembly
 
-Machetă mecanică pentru prezentarea unui sistem de urmărire a soarelui, destinată expunerii fără alimentare la rețea. În interior sunt rezervate 110 × 65 × 32 mm pentru sursă și 50 × 30 × 20 mm pentru un convertitor ales ulterior. Pozițiile găurilor și prinderile PCB rămân de stabilit după componentele reale.
+The open supply was estimated at **104 × 57–58 × 26 mm**. Height has the greatest uncertainty. The reserved supply bay is **110 × 65 × 32 mm**. The second bay reserves **50 × 30 × 20 mm** for the converter including its connectors. The gray solids in the gallery represent these component locations. PCB hole coordinates and production mounting hardware remain unspecified.
 
-Cele 32 de raze sunt gravate în capacul plin. Marginea lui suprapune corpul pe aproximativ 5 mm. Porturile sunt deschise și carcasa nu are garnitură sau clasă IP. Păstrează macheta cu electronica ferită de ploaie.
+For an unpowered demonstration, place the component mock-ups in their bays, route the demonstration cables through the opposite ports and secure the jackets with the two clamps. Install the green lid with its four recessed screws. The 32 engraved rays sit above the solid lid. Its skirt overlaps the body by approximately 5 mm.
 
-Așază machetele componentelor în cele două zone, prinde cablurile demonstrative în bride și montează capacul cu cele patru șuruburi verzi. Imprimă capacul cu exteriorul pe pat, șuruburile pe cap și bridele pe fața plată.
+The ports are open and the lid has no gasket. Keep the demonstration electronics dry. No ingress rating, thermal test or outdoor mains operating approval has been established.
 
-[Fișier Blender](cad/assembly.blend) · [Generatorul geometriei](source/build.py) · [Rapoarte CAD](validation/) · [Metodă și limite](../../docs/method.md)
+[Editable Blender file](cad/assembly.blend) · [Geometry generator](source/build.py) · [CAD reports](validation/) · [Evidence and limitations](../../docs/method.md)

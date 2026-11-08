@@ -16,7 +16,7 @@ def bore(o,x,y,z,h):
  q=ct('tap',h,z,.25);q.location.x=x;q.location.y=y;boolean(o,q)
 def screw(name,length):
  q=cyl(name,0,0,0,5,2);boolean(q,ct('stem',length,1.8),'UNION');boolean(q,cube('slot',(0,0,0),(7,1.6,1.4)));return q
-base=rounded('01_GRAFIT_body_x1',X,Y,R,0,H)
+base=rounded('01_GRAPHITE_body_x1',X,Y,R,0,H)
 boolean(base,rounded('cavity',X-4.8,Y-4.8,R-2.4,1.8,H+1))
 # Four corner columns, attached to floor. They sit beyond the PSU ends.
 for x,y in centers:
@@ -44,7 +44,7 @@ for side in [-1,1]:
 for y in [-23,0,23]:
  boolean(base,cube('routing guide',(35,y,4),(1.2,3,4.8)),'UNION')
 # Lid prints outside face on bed. All locator/retention features grow upward.
-lid=rounded('02_FILDES_wave_lid_x1',X,Y,R,0,2.8)
+lid=rounded('02_IVORY_wave_lid_x1',X,Y,R,0,2.8)
 # flowing narrow apertures: serpentine field, length follows a leaf envelope.
 for col in range(-4,5):
  x0=col*6.8;length=91-abs(col)*5;pts=[]
@@ -64,12 +64,12 @@ for x in [-27.5,27.5]:
 # locator tabs outside metal housing
 for x in [-40,40]:
  for y in [-26,26]:boolean(lid,cube('locator',(x,y,4.3),(1.2,8,3.4)),'UNION')
-closure=screw('03_FILDES_closure_x4',14)
-clamp=rounded('04_FILDES_cable_clamp_x2',34,10,3,0,3)
+closure=screw('03_IVORY_closure_x4',14)
+clamp=rounded('04_IVORY_cable_clamp_x2',34,10,3,0,3)
 for x in [-11,11]:boolean(clamp,cyl('clearance',x,0,-1,3.5,6))
 for y in [-3,0,3]:
  q=cyl('rounded ridge',0,0,-6,1.2,12);q.rotation_euler[1]=math.pi/2;q.location=(0,y,2.1);boolean(clamp,q,'UNION')
-clampscrew=screw('05_GRAFIT_clamp_screw_x4',22)
+clampscrew=screw('05_GRAPHITE_clamp_screw_x4',22)
 parts=[base,lid,closure,clamp,clampscrew]
 report={}
 for o in parts:

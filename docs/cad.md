@@ -1,17 +1,17 @@
-# Editare și reproducere
+# Editing and regenerating the geometry
 
-Deschide fișierul Blender din directorul cad al carcasei. Scenele includ geometriile editabile și, pentru ansambluri, obiectele ilustrative. Pentru imprimare folosește fișierele din print/. Fiecare carcasă are propriile cote în source/parameters_v2.json și propriul generator în source/build.py. Unele dimensiuni de detaliu se află direct în generator.
+Open the Blender file in the case's cad folder. Assembly scenes contain editable meshes, illustrative objects, materials and cameras. The S-60-12 parts scene stores its five printable components at their print origins. For fabrication, use the oriented files in print/.
 
-Generatorul folosește Blender 4.2 cu Python 3.11, NumPy și manifold3d 3.5.4. Instalează manifold3d pentru platforma și versiunea Python ale Blender. Un director source/vendor local este acceptat de generator. Pe o instalare cu Python 3.11 compatibil, din directorul carcasei:
+Each case includes nominal settings in source/parameters_v2.json. Feature dimensions also appear in source/build.py. To regenerate the individual parts, use Blender 4.2 with Python 3.11, NumPy and manifold3d 3.5.4. Use a wheel compatible with your Blender architecture and Python installation. From the case directory:
 
 ```sh
 python3.11 -m pip install --no-deps --target source/vendor manifold3d==3.5.4
 blender --background --python-exit-code 1 --python source/build.py
 ```
 
-Blender scrie geometriile individuale în final/stl/. Cantitățile și aranjarea plăcilor distribuite sunt descrise în print/manifest.json. Regenerarea geometriei și alegerea culorilor sunt operațiuni independente. Pentru S-60-12, generatorul include doar geometria pieselor imprimate. Fișierul STEP original nu este necesar pentru regenerare.
+Generated meshes appear in final/stl/. Packaged plate positions and quantities are separate distribution data. The S-60-12 generator builds the enclosure without the commercial reference STEP.
 
-Din rădăcina depozitului, verificarea distribuției se poate rula separat cu Python 3.14:
+To verify the packaged files from the repository root with Python 3.14:
 
 ```sh
 python3 -m venv .venv
@@ -19,4 +19,4 @@ python3 -m venv .venv
 .venv/bin/python tools/verify.py
 ```
 
-Verificarea citește STL-urile și XML-ul din plăcile 3MF. Controlează volumele și ariile pieselor, cantitățile pe culori, atingerea planului patului și lipsa suprapunerilor între dreptunghiurile care încadrează piesele. Ultima etapă compară amprentele SHA-256 ale fișierelor distribuite.
+The verifier checks STL solids, 3MF units, area and volume correspondence, color-plate quantities, bed contact and nonoverlapping bounding rectangles within 256 × 256 mm. It also checks SHA256SUMS for the distributed case files. [Automated verification](https://github.com/vluncasu/power-supply-cases/actions)

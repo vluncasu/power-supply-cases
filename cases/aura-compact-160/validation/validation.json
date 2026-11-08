@@ -1,5 +1,5 @@
 {
-  "05_NEGRU_clamp_screw_x4.stl": {
+  "05_BLACK_clamp_screw_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -16,7 +16,7 @@
     ],
     "volume_mm3": 665.5256061033185
   },
-  "03_ALB_closure_x4.stl": {
+  "03_WHITE_closure_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -33,7 +33,7 @@
     ],
     "volume_mm3": 491.69042398685446
   },
-  "06_ALB_housing_pressure_x2.stl": {
+  "06_WHITE_housing_pressure_x2.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -50,7 +50,7 @@
     ],
     "volume_mm3": 342.68922236292883
   },
-  "04_ALB_cable_clamp_x2.stl": {
+  "04_WHITE_cable_clamp_x2.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -67,7 +67,7 @@
     ],
     "volume_mm3": 655.4407869417946
   },
-  "02_ALB_wave_lid_x1.stl": {
+  "02_WHITE_wave_lid_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -84,7 +84,7 @@
     ],
     "volume_mm3": 47193.814981182375
   },
-  "01_NEGRU_body_x1.stl": {
+  "01_BLACK_body_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -198,12 +198,12 @@
     0
   ],
   "plates": {
-    "01_NEGRU_5_pieces.3mf": {
+    "01_BLACK_5_pieces.3mf": {
       "count": 5,
       "within_256": true,
       "no_overlap": true
     },
-    "02_ALB_9_pieces.3mf": {
+    "02_WHITE_9_pieces.3mf": {
       "count": 9,
       "within_256": true,
       "no_overlap": true

@@ -1,21 +1,21 @@
 {
-  "01_GRAFIT_body_x1": {
+  "01_GRAPHITE_body_x1": {
     "nonmanifold_edges": 0,
     "volume_mm3": 80654.12731482199
   },
-  "02_FILDES_wave_lid_x1": {
+  "02_IVORY_wave_lid_x1": {
     "nonmanifold_edges": 0,
     "volume_mm3": 30881.88034872333
   },
-  "03_FILDES_closure_x4": {
+  "03_IVORY_closure_x4": {
     "nonmanifold_edges": 0,
     "volume_mm3": 491.69042398685394
   },
-  "04_FILDES_cable_clamp_x2": {
+  "04_IVORY_cable_clamp_x2": {
     "nonmanifold_edges": 0,
     "volume_mm3": 777.8407686479252
   },
-  "05_GRAFIT_clamp_screw_x4": {
+  "05_GRAPHITE_clamp_screw_x4": {
     "nonmanifold_edges": 0,
     "volume_mm3": 690.3589050116634
   }

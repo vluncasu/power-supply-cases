@@ -1,5 +1,5 @@
 {
-  "04_FILDES_cable_clamp_x2.stl": {
+  "04_IVORY_cable_clamp_x2.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -16,7 +16,7 @@
     ],
     "volume_mm3": 777.8407686479245
   },
-  "03_FILDES_closure_x4.stl": {
+  "03_IVORY_closure_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -33,7 +33,7 @@
     ],
     "volume_mm3": 491.69042398685446
   },
-  "01_GRAFIT_body_x1.stl": {
+  "01_GRAPHITE_body_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -50,7 +50,7 @@
     ],
     "volume_mm3": 80654.12731482569
   },
-  "05_GRAFIT_clamp_screw_x4.stl": {
+  "05_GRAPHITE_clamp_screw_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -67,7 +67,7 @@
     ],
     "volume_mm3": 690.3589050116678
   },
-  "02_FILDES_wave_lid_x1.stl": {
+  "02_IVORY_wave_lid_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -144,12 +144,12 @@
     0
   ],
   "plates": {
-    "02_FILDES_7_pieces.3mf": {
+    "02_IVORY_7_pieces.3mf": {
       "count": 7,
       "within_256": true,
       "no_overlap": true
     },
-    "01_GRAFIT_5_pieces.3mf": {
+    "01_GRAPHITE_5_pieces.3mf": {
       "count": 5,
       "within_256": true,
       "no_overlap": true

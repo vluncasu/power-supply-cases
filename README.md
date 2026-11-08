@@ -1,30 +1,36 @@
 # Power Supply Cases
 
-Carcase mecanice pentru imprimare FDM. Proiectul principal adaptează sursa Delta ADP-300AF T din iMac Retina 5K de 27″, Late 2015, pentru montaj separat. Fiecare model include randări din CAD, geometrie editabilă, piese STL, două plăci 3MF și rezultate de verificare.
+Printable enclosures for four power-supply layouts, designed for the **Bambu Lab P1S**. Each kit includes oriented STL files, a quantity list and two single-color 3MF plates for a 0.4 mm nozzle and 0.20 mm layers.
 
-![ARC Slim Grip — iMac 27″ Late 2015](cases/imac-27-5k-2015/renders/exterior.png)
+![ARC Slim Grip enclosure for the 27-inch Retina 5K iMac power supply](cases/imac-27-5k-2015/renders/exterior.png)
 
-**Pentru sursa iMac** deschide [fișa tehnică și montajul](cases/imac-27-5k-2015/README.md). Cele două plăci complete conțin [13 piese grafit](cases/imac-27-5k-2015/print/plates/01-graphite-13.3mf) și [11 piese fildeș](cases/imac-27-5k-2015/print/plates/02-ivory-11.3mf).
+## 27-inch Retina 5K iMac, Late 2015
 
-[Tabel dimensional al celor patru surse, cote de montaj și toleranțe](docs/dimensions.md)
+**ARC Slim Grip** houses the Delta ADP-300AF T. Four independently adjustable supports accommodate the estimated PCB hole positions. Two clamps retain the cable jackets on opposite ends, and baffled side slots leave the sculpted lid closed. The case measures **190 × 166 × 50 mm** including its feet.
 
-## Alegerea modelului
+| Inside the iMac case | Lid and fasteners lifted |
+|---|---|
+| ![PCB mounts, cable saddles and side baffles](cases/imac-27-5k-2015/renders/interior.png) | ![Exploded iMac enclosure](cases/imac-27-5k-2015/renders/exploded.png) |
 
-| Carcasă | Reper de compatibilitate | Exterior (mm) | Piese |
+[Download all 24 iMac parts](https://github.com/vluncasu/power-supply-cases/releases/latest/download/imac-27-5k-2015-print.zip) · [Mounting drawing, print orientation and assembly](cases/imac-27-5k-2015/)
+
+## Choose a case
+
+All dimensions are length × width × height in millimeters. Check the supply itself before selecting a kit.
+
+| Case and gallery | Supply or reserved envelope | Case exterior | Printed pieces |
 |---|---|---|---:|
-| [ARC Slim Grip](cases/imac-27-5k-2015/) | Delta ADP-300AF T, iMac 27″ Retina 5K Late 2015 | 190 × 166 × 50 | 24 |
-| [AURA Compact 160](cases/aura-compact-160/) | Bloc metalic estimat la 110 × 100 × 36 mm | 160 × 124 × 48,8 | 14 |
-| [AURA S-60-12](cases/aura-s60/) | S-60-12 din modelul STEP, 86 × 58,02 × 33,02 mm | 148 × 88 × 42,8 | 12 |
-| [Suncronizer](cases/suncronizer/) | Machetă pentru sursă 104 × 58 × 26 mm și convertitor 12 V → 5 V | 164 × 116 × 39,8 | 12 |
+| [ARC Slim Grip](cases/imac-27-5k-2015/) | Delta PCB estimated at 163 × 132 × 30 | 190 × 166 × 50 | 24 |
+| [AURA S-60-12](cases/aura-s60/) | STEP assembly, 86 × 58.02 × 33.02 | 148 × 88 × 42.8 | 12 |
+| [AURA Compact 160](cases/aura-compact-160/) | Estimated metal housing, 110 × 98–100 × 35–36 | 160 × 124 × 48.8 | 14 |
+| [Suncronizer demo](cases/suncronizer/) | Estimated supply, 104 × 57–58 × 26, plus converter bay | 164 × 116 × 39.8 | 12 |
 
-| AURA Compact 160 | AURA S-60-12 | Suncronizer |
+| AURA S-60-12 | AURA Compact 160 | Suncronizer |
 |---|---|---|
-| [![AURA Compact](cases/aura-compact-160/renders/exterior.png)](cases/aura-compact-160/) | [![AURA S-60-12](cases/aura-s60/renders/exterior.png)](cases/aura-s60/) | [![Suncronizer verde/negru](cases/suncronizer/renders/exterior.png)](cases/suncronizer/) |
+| [![S-60-12 enclosure](cases/aura-s60/renders/exterior.png)](cases/aura-s60/) | [![Compact enclosure](cases/aura-compact-160/renders/exterior.png)](cases/aura-compact-160/) | [![Green Suncronizer demo](cases/suncronizer/renders/exterior.png)](cases/suncronizer/) |
 
-## Imprimare și dovezi
+## Printing and verification
 
-Alege carcasa după codul și dimensiunile sursei. Pentru Bambu Lab P1S, plăcile sunt aranjate pe 256 × 256 mm cu piese orientate pentru duză de 0,4 mm, strat de 0,20 mm și imprimare fără suporți. Sunt modele mecanice verificate digital. Imprimarea, rezistența la tracțiune, răcirea și protecția electrică în ansamblul fizic rămân nevalidate.
+Download one case from [Releases](https://github.com/vluncasu/power-supply-cases/releases/latest). Open one 3MF per color and select the P1S profile in your slicer. The CAD checks cover all eight plate layouts and 62 printed pieces. These designs have digital fit and bed-layout checks only. Physical printing, thermal performance, cable pull-out and mains electrical protection remain unverified. Suncronizer is an unpowered demonstration enclosure.
 
-[Pregătirea plăcilor](docs/printing.md) · [Metodă, surse și limite](docs/method.md) · [Vizualizarea și regenerarea CAD](docs/cad.md) · [Verificarea distribuției](tools/verify.py)
-
-[Versiuni și citare](docs/publication.md)
+[Print guide](docs/printing.md) · [Supply dimensions](docs/dimensions.md) · [Verification method](docs/method.md) · [Edit and regenerate CAD](docs/cad.md) · [Versions and citation](docs/publication.md)

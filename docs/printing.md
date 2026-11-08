@@ -1,10 +1,19 @@
-# Imprimare pe Bambu Lab P1S
+# Printing on the Bambu Lab P1S
 
-1. Identifică sursa după fișa carcasei și compară măsurătorile unității tale cu gabaritul permis. Toate cotele sunt în milimetri.
-2. Descarcă cele două fișiere din directorul print/plates al **aceluiași model**. Pe GitHub, deschide fișierul și folosește „Download raw file”. Poți descărca și depozitul din **Code → Download ZIP**.
-3. Importă o singură placă 3MF în slicer, ca geometrie la scară de 100%. Pozițiile, orientările și exemplarele sunt deja incluse. Fiecare placă folosește o singură culoare, astfel încât poți schimba rola între imprimări.
-4. Selectează P1S cu pat de 256 × 256 mm, duză de 0,4 mm, strat de 0,20 mm, profil Strength și filamentul utilizat. Geometriile au fost proiectate pentru imprimare fără suporți. Verifică previzualizarea filetelor, podurilor scurte și primului strat. Plăcile distribuite conțin geometrie 3MF, fără G-code sau profil de imprimantă.
-5. Pentru o piesă de schimb, folosește STL-ul din folderul de culoare. Fiecare STL conține o piesă. Sufixul xN indică numărul necesar pentru un ansamblu întreg.
-6. Montează fiecare ansamblu după fișa lui tehnică. Strânge filetele imprimate ușor, manual. Verifică sprijinul și jocul mecanic cu componentele fără tensiune.
+All four case kits are designed for a **Bambu Lab P1S with a 256 × 256 mm plate and a 0.4 mm nozzle**. Each color has its own arranged 3MF. The intended setup is PLA, the **0.20 mm Strength** process and supports disabled. These files have passed digital bed-layout checks. Physical printing remains untested.
 
-Geometriile vizează imprimarea în PLA pentru evaluare mecanică. Datele disponibile acoperă verificările digitale. Nu există rezultate de imprimare fizică, retenție la cald, încercări electrice sau măsurători termice în sarcină în acest depozit.
+1. Identify the supply and check its dimensions, terminal projections and cable route against the [fit guide](dimensions.md).
+2. Download the matching print kit from [Releases](https://github.com/vluncasu/power-supply-cases/releases/latest) and extract it. Open one file from the plate folder at a time. For direct downloads from GitHub file pages, use **Download raw file**.
+3. In your slicer select the P1S, 0.4 mm nozzle, build surface and actual filament. Import the plate at 100% in millimeters. The 3MF stores the geometry and copy counts. Select the process in the slicer and generate toolpaths locally.
+4. Preserve the supplied orientation. Check that every object starts on the bed and preview the short bridges in the screwdriver slots, head recesses and threaded parts. Check clear space before adding a brim.
+5. Print one plate per color. Change the spool between plates. The supplied layout needs no in-print color change. For replacements, each individual STL contains one part. Its xN suffix specifies the quantity for one complete enclosure.
+6. Use the model-specific assembly order. Bring printed screws up gently by hand and check fit with an unpowered assembly.
+
+| Case | Lid on the print bed | Plate 1 | Plate 2 |
+|---|---|---:|---:|
+| [ARC Slim Grip](../cases/imac-27-5k-2015/) | Flat underside on bed, sculpted face up | 13 graphite | 11 ivory |
+| [AURA S-60-12](../cases/aura-s60/) | Exterior face down | 5 graphite | 7 ivory |
+| [AURA Compact 160](../cases/aura-compact-160/) | Exterior face down | 5 black | 9 white |
+| [Suncronizer](../cases/suncronizer/) | Engraved face down, skirt up | 5 black | 7 green |
+
+Bodies print floor-down, screws head-down and cable clamps flat-side-down. Installed clamps face the jacket with their rounded ribs. For ARC, print the PCB shoes on the square bases and the nuts on a flat face. Separate printed hardware from different kits by model, even where the parts look similar.

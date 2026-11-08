@@ -16,7 +16,7 @@ def bore(o,x,y,z,h):
  q=ct('tap',h,z,.25);q.location.x=x;q.location.y=y;boolean(o,q)
 def screw(name,length):
  q=cyl(name,0,0,0,5,2);boolean(q,ct('stem',length,1.8),'UNION');boolean(q,cube('slot',(0,0,0),(7,1.6,1.4)));return q
-base=rounded('01_NEGRU_body_x1',X,Y,R,0,H)
+base=rounded('01_BLACK_body_x1',X,Y,R,0,H)
 boolean(base,rounded('cavity',X-4.8,Y-4.8,R-2.4,1.8,H+1))
 # Four corner columns, attached to floor. They sit beyond the PSU ends.
 for x,y in centers:
@@ -35,7 +35,7 @@ for side in [-1,1]:
  for x in [-11,11]:
   boolean(base,cyl('clamp tower',x,side*72.2,1.6,4.5,14.4),'UNION');bore(base,x,side*72.2,2.4,15)
 # Cap prints exterior face on bed, skirt growing upward. Solid weather-facing face.
-lid=rounded('02_VERDE_solar_cap_x1',X+4,Y+4,R+2,0,2.8)
+lid=rounded('02_GREEN_solar_cap_x1',X+4,Y+4,R+2,0,2.8)
 skirt=rounded('cap skirt',X+4,Y+4,R+2,2.6,5.2)
 boolean(skirt,rounded('skirt cavity',X+.8,Y+.8,R+.4,2.4,6))
 boolean(lid,skirt,'UNION')
@@ -49,12 +49,12 @@ for i in range(32):
  q=prism_z('sun ray',pts,.5);q.location.z=-.1;boolean(lid,q)
 for x,y in centers:
  boolean(lid,cyl('closure shaft',x,y,-1,3.4,6));boolean(lid,cyl('recess',x,y,-.1,5.3,2.1))
-closure=screw('03_VERDE_closure_x4',14)
-clamp=rounded('04_VERDE_cable_clamp_x2',34,8.8,3,0,3)
+closure=screw('03_GREEN_closure_x4',14)
+clamp=rounded('04_GREEN_cable_clamp_x2',34,8.8,3,0,3)
 for x in [-11,11]:boolean(clamp,cyl('clearance',x,0,-1,3.5,6))
 for y in [-2.8,0,2.8]:
  q=cyl('rounded ridge',0,0,-6,1.2,12);q.rotation_euler[1]=math.pi/2;q.location=(0,y,2.1);boolean(clamp,q,'UNION')
-clampscrew=screw('05_NEGRU_clamp_screw_x4',22)
+clampscrew=screw('05_BLACK_clamp_screw_x4',22)
 parts=[base,lid,closure,clamp,clampscrew]
 report={}
 for o in parts:

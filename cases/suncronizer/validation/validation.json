@@ -1,5 +1,5 @@
 {
-  "05_NEGRU_clamp_screw_x4.stl": {
+  "05_BLACK_clamp_screw_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -16,7 +16,7 @@
     ],
     "volume_mm3": 690.3589050116678
   },
-  "03_ALB_closure_x4.stl": {
+  "03_GREEN_closure_x4.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -33,7 +33,7 @@
     ],
     "volume_mm3": 491.69042398685446
   },
-  "04_ALB_cable_clamp_x2.stl": {
+  "04_GREEN_cable_clamp_x2.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -50,7 +50,7 @@
     ],
     "volume_mm3": 655.4407869417946
   },
-  "02_ALB_solar_cap_x1.stl": {
+  "02_GREEN_solar_cap_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -67,7 +67,7 @@
     ],
     "volume_mm3": 55795.97182270439
   },
-  "01_NEGRU_body_x1.stl": {
+  "01_BLACK_body_x1.stl": {
     "watertight": true,
     "components": 1,
     "bounds": [
@@ -144,12 +144,12 @@
     0
   ],
   "plates": {
-    "01_NEGRU_5_pieces.3mf": {
+    "01_BLACK_5_pieces.3mf": {
       "count": 5,
       "within_256": true,
       "no_overlap": true
     },
-    "02_ALB_7_pieces.3mf": {
+    "02_GREEN_7_pieces.3mf": {
       "count": 7,
       "within_256": true,
       "no_overlap": true

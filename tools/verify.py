@@ -19,6 +19,7 @@ def require(condition, detail):
 
 
 def verify_case(directory):
+    """Compare each plate with its STL bill of materials in millimeters."""
     manifest = json.loads((directory / "print/manifest.json").read_text())
     meshes = {}
     for part in manifest["parts"]:
@@ -41,6 +42,7 @@ def verify_case(directory):
             counts[part_id] += 1
             vertices = np.array([[float(v.get(k)) for k in "xyz"] for v in obj.findall(".//m:vertex", NS)])
             faces = np.array([[int(f.get(k)) for k in ("v1", "v2", "v3")] for f in obj.findall(".//m:triangle", NS)])
+            # A 3MF build item can translate or rotate its mesh on the plate.
             if item.get("transform"):
                 matrix = np.fromstring(item.get("transform"), sep=" ").reshape(4, 3)
                 vertices = vertices @ matrix[:3] + matrix[3]
